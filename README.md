@@ -28,7 +28,7 @@ Talk about the structure of the data
 
 ## Machine Learning
 
-We intend to use a classification model with a 70/30 train/test split to determine whether or not a player will perform above or below the projected fantasy points. Critical to this model is engineering binary features to complement the numeric features we have found, and fine-tuning parameters to make the model account for complexities in the selected features, but flexible enough to take in 2021 fantasy projections and help fantasy managers to decide who to draft, start, trade for, and pick up off of the waiver wire.
+We intend to use a classification model with a 80/20 train/test split to determine whether or not a player will perform above or below the projected fantasy points. Critical to this model is engineering binary features to complement the numeric features we have found, and fine-tuning parameters to make the model account for complexities in the selected features, but flexible enough to take in 2021 fantasy projections and help fantasy managers to decide who to draft, start, trade for, and pick up off of the waiver wire.
 
 Our intent is to deploy our trained model to a web application that requests basic user input and takes certain features into account to provide a prediction (which could be taken as a recommendation) about a player’s performance in the coming week.
 

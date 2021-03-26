@@ -1,13 +1,16 @@
-import requests
 
+import requests
+import zipfile
 import time
 
 def download_url(url, save_path):
- '''
- Purpose: Download a zip file of fantasy football data.
- First try using the requests library to access the site.
- If that fails, sleep for 5 seconds then re-try.
- Finally, iterate through the file and write it to the intended directory'''
+    '''
+    Purpose: Download a zip file of fantasy football data.
+    First try using the requests library to access the site.
+    If that fails, sleep for 5 seconds then re-try.
+    Finally, iterate through the file and write it to the intended directory
+    '''
+
     try:
         r = requests.get(url, stream=True)
     except:
@@ -19,5 +22,10 @@ def download_url(url, save_path):
 
 download_url(
     'https://www.fantasyfootballdatapros.com/static/data_v2.zip',
-             '/Users/aidanoconnor/GU/Cloudy-with-a-Chance-of-Football/data/raw_data/fantasy_football_data_pros.zip'
-)
+             'fantasy_football_data_pros.zip')
+
+
+fb_dir = 'fantasy_football_data_pros'
+with zipfile.ZipFile('fantasy_football_data_pros.zip', 'r') as zip_ref:
+    zip_ref.extractall(fb_dir)
+
