@@ -1,4 +1,4 @@
-schedule_date,schedule_season,schedule_week,schedule_playoff,team_home,score_home,score_away,team_away,team_favorite_id,spread_favorite,over_under_line,stadium,stadium_neutral,weather_temperature,weather_wind_mph,weather_humidity,weather_detail
+schedule_date ,schedule_season,schedule_week,schedule_playoff,team_home,score_home,score_away,team_away,team_favorite_id,spread_favorite,over_under_line,stadium,stadium_neutral,weather_temperature,weather_wind_mph,weather_humidity,weather_detail
 9/2/1966,1966,1,FALSE,Miami Dolphins,14,23,Oakland Raiders,,,,Orange Bowl,FALSE,83,6,71,
 9/3/1966,1966,1,FALSE,Houston Oilers,45,7,Denver Broncos,,,,Rice Stadium,FALSE,81,7,70,
 9/4/1966,1966,1,FALSE,San Diego Chargers,27,7,Buffalo Bills,,,,Balboa Stadium,FALSE,70,7,82,
