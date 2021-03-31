@@ -11,4 +11,4 @@ positions = ['defense_stats_and_projections.csv',
 
 for i in positions:
     url = 'https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections?select='
-    retrieve (url,i)
+    retrieve(url,i)
