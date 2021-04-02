@@ -1,248 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS | Kaggle</title>
-    <meta charset="utf-8" />
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Win your fantasy league this year!" />
-    <meta name="turbolinks-cache-control" content="no-cache" />
-        <meta name="keywords" content="sports" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
-    <meta name="theme-color" content="#008ABC" />
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations()
-                .then(function(registrations) {
-                    for (let registration of registrations) {
-                        registration.unregister();
-                    }
-                })
-                .catch(function(err) {
-                    console.error("Service worker unregister failed: ", err);
-                });
-        }
-    </script>
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-        window["pageRequestStartTime"] = 1617106390762;
-        window["pageRequestEndTime"] = 1617106390859;
-        window["initialPageLoadStartTime"] = new Date().getTime();
-    </script>
-    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
-    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic" rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons" rel="stylesheet" type='text/css' />
-        <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=b7aba5228d60a3f39c8a" />
-        <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=d7a73971c2ad857c2e5d" />
-    
-    
- 
-    
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==">
-        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
-        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
-        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
-        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
-        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
-    </script>
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==">
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-12629138-1', {
-            'optimize_id': 'GTM-52LNT9S',
-            'displayFeaturesTask': null,
-            'send_page_view': false,
-            'content_group1': 'Datasets'
-        });
-    </script>
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
-
-    
-    
-        <meta property="og:url" content="https://kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections" />
-        <meta property="og:title" content="ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS" />
-        <meta property="og:description" content="Win your fantasy league this year!" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-card.jpg?t=2020-07-22-17-37-26" />
-        <meta property="fb:app_id" content="2665027677054710" />
-
-
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@kaggledatasets" />
-    
-
-    
-    
-        <script nonce="7LgXAL/Oqern7I+Xj2MRdQ==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS","description":"### Context\n\nI love playing fantasy football, but I usually never make it to the playoffs. In an attempt to win my Fantasy this year, I will be gather fantasy football projections from as many websites as possible, and figure out how to combine them in a way that helps me make the best draft picks possible. This dataset currently includes all available 2019 Fantasy stats and 2020 Projections.\n\n\n### Content\n\nThe data is divided based on position. Quarterback, Running Back, Wide Receiver, Tight End, Defense, and Kicker are all fantasy positions. For each position, there may be slightly different stats, but for all positions, there are player names (or just team name for defense), and a projected amount of fantasy points for the 2020 season.\n\nPlease note: all data was scraped on July 17th, and 2020 projections are subject to change.\n\n\n### Acknowledgements\n\nThank you, ESPN, for publishing your 2020 NFL Fantasy Projections.\n\n\n### Inspiration\n\nCan we make more accurate fantasy predictions than ESPN?\n\nWhich players are underrated going into the 2020 season?\n\nWhich players are overrated going into the 2020 season?\n\nAssume a 12 team fantasy league with 14 draft rounds. Each week you can play 1 QB, 2RB, 2WR, 1TE, 1 FLEX (TE, RB or WR), 1 D/ST, 1 Kicker.. which positions should you draft first?","url":"https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections","version":1,"keywords":["subject, health and fitness, exercise, sports"],"license":{"@type":"CreativeWork","name":"Unknown","url":""},"identifier":["782808"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Chris Murphy","url":"https://www.kaggle.com/mur418","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2198790-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/download","contentSize":"107005 bytes"}],"commentCount":0,"dateModified":"2020-07-17T14:59:47.933","discussionUrl":"https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/discussion","alternateName":"Win your fantasy league this year!","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-card.jpg?t=2020-07-22-17-37-26","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":336},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":1925},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":3}]}</script>
-    
-
-    
-    
-    
-<script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-    var Kaggle = window.Kaggle || {};
-
-    Kaggle.Current = {
-        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL9JuaulGWSmW0FdQ_008N8n3IPVkdubC9qjuv9G8LTztjGVTEGwYqCClocIRrqZp4kr-eUfQqdNwPEkd09ru1cB9aBdsU5KPnq9EYwQmG0IQtf96VUWSdToTMFDl3iM2aY',
-        isAnonymous: true,
-        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTcxMDcyOTAsIlVzZXJJZCI6MH0.vapMVZOkNw2j69fpx5TPD-D2vL28Kd2OvTPh8hd-388',
-        analyticsTokenExpiry: 15,
-        
-        
-        
-        
-        
-        
-        mdeImageUploader: true,
-        
-        enableRapidash: true, 
-    }
-        Kaggle.Current.log = function(){};
-        Kaggle.Current.warn = function(){};
-
-    var decodeUserDisplayName = function () {
-        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
-        try {
-            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
-            if (textVersion) {
-                return textVersion;
-            }
-        } catch(ex) {}
-        return escapedUserDisplayName;
-    }
-    Kaggle.Current.userDisplayName = decodeUserDisplayName();
-</script>
-
-    
-
-<script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-    var Kaggle = window.Kaggle || {};
-    Kaggle.PageMessages = [];
-</script>
-
-        <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-/* <![CDATA[ */
-goog_snippet_vars = function() {
-    var w = window;
-    w.google_conversion_id = 955616553;
-    w.google_conversion_label = "QSjvCKDksHMQqZrWxwM";
-    w.google_conversion_value = 0.00;
-    w.google_conversion_currency = "USD";
-    w.google_remarketing_only = false;
-    w.google_conversion_language = "en";
-    w.google_conversion_format = "3";
-    w.google_conversion_color = "ffffff";
-}
-// DO NOT CHANGE THE CODE BELOW.
-goog_report_conversion = function(url) {
-    goog_snippet_vars();
-    window.google_conversion_format = "3";
-    var opt = new Object();
-    opt.onload_callback = function() {
-        if (typeof(url) != 'undefined') {
-            window.location = url;
-        }
-    }
-    var conv_handler = window['google_trackConversion'];
-    if (typeof(conv_handler) == 'function') {
-        conv_handler(opt);
-    }
-}
-/* ]]> */
-    </script>
-    <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript"
-            src="//www.googleadservices.com/pagead/conversion_async.js">
-    </script>
-
-
-
-        <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==">window['useKaggleAnalytics'] = true;</script>
-
-    <script id="gapi-target" nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" src="https://apis.google.com/js/api.js" defer async></script>
-    <script nonce="7LgXAL/Oqern7I+Xj2MRdQ==" src="/static/assets/runtime.js?v=d1569c168c535664ad0d" data-turbolinks-track="reload"></script>
-    <script nonce="7LgXAL/Oqern7I+Xj2MRdQ==" src="/static/assets/vendor.js?v=e2e898be1e2a0f71d56a" data-turbolinks-track="reload"></script>
-    <script nonce="7LgXAL/Oqern7I+Xj2MRdQ==" src="/static/assets/app.js?v=57eebeee3c4d792c0aca" data-turbolinks-track="reload"></script>
-        <script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/javascript">
-            window.kaggleStackdriverConfig = {
-                key: 'AIzaSyDANGXFHtSIVc51MIdGwg4mQFgm3oNrKoo',
-                projectId: 'kaggle-161607',
-                service: 'web-fe',
-                version: 'ci',
-                context: {
-                    user: '0',
-                },
-            };
-        </script>
-</head>
-<body data-turbolinks="false">
-    <main>
-        
-
-
-
-
-
-
-<div id="site-container"></div>
-<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="7LgXAL/Oqern7I+Xj2MRdQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
-<div id="site-body" class="hide">
-    
-
-
-<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="7LgXAL/Oqern7I+Xj2MRdQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"pageMessages":[],"discussion":{"canDownvote":false,"dataUrl":"/forums/797822/topics.json","id":797822,"isRootLevel":false,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","initialTopics":null,"paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"home","newTopic":{"allowAttachments":false,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":797822,"parentName":"ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS","parentUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/discussion"},"categories":{"type":"dataset","tags":[{"id":4141,"name":"sports","fullPath":"subject \u003e health and fitness \u003e exercise \u003e sports","listingUrl":"/datasets?group=public\u0026tagids=4141","description":"The sports tag covers the whole spectrum of sports around the world. We\u0027ve got tennis, we\u0027ve got football, and we\u0027ve even got kitefoil racing.","datasetCount":1869,"competitionCount":15,"notebookCount":928,"tagUrl":"/tags/sports","displayName":"Sports","fontAwesomeIcon":""}]},"upvoteSuggestion":{"voteCount":3,"medalVoteCount":1,"upVoteUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/vote","upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/5406870-kg.jpg","displayName":"Pavlo Rymarchuk","profileUrl":"/pavlorymarchuk","tier":"Expert","tierInt":2,"userId":5406870,"userName":"pavlorymarchuk"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2039690-kg.JPG","displayName":"Aidan","profileUrl":"/oconnorac","tier":"Novice","tierInt":0,"userId":2039690,"userName":"oconnorac"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Connor Schmitt","profileUrl":"/connorschmitt","tier":"Novice","tierInt":0,"userId":5816993,"userName":"connorschmitt"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"userId":2198790,"groupId":null,"groupMemberCount":null,"profileUrl":"/mur418","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2198790-kg.jpg","name":"Chris Murphy","slug":"mur418","userTier":1,"joinDate":null,"type":"owner","isUser":true,"isGroup":false},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canSeeDatasetTasks":false,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":null,"datasetHashLink":null,"datasetId":782808,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":1345928,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections","datasetExternalUrl":"https://kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/data-original.jpg?t=2020-07-22-17-37-26","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-cover.jpg?t=2020-07-22-17-37-26","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-card.jpg?t=2020-07-22-17-37-26","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-thumbnail.jpg?t=2020-07-22-17-37-26","license":{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":null},"voteCount":3,"upVoteUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/vote","creatorUserId":2198790,"creatorDisplayName":"Chris Murphy","ownerTwitter":null,"lastUpdated":"2020-07-17T14:59:47.933Z","downloadUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/download","newNotebookUrl":"/kernels/notebooks/new?datasetVersionId=1345928","newScriptUrl":"/code/scripts/new?datasetVersionId=1345928","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":1925,"numberOfDownloads":336,"numberOfScripts":2,"numberOfTopics":0,"numberOfTasks":1,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":261,"cardImageTop":0,"cardImageWidth":1599,"cardImageHeight":1599,"coverImageLeft":10,"coverImageTop":709,"coverImageWidth":2100,"coverImageHeight":442,"datasetVersions":[{"id":1345928,"slug":"espn-2019-stats-and-2020-nfl-fantasy-projections","name":"ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS","creationDate":"2020-07-17T14:59:47.933Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/782808/1345928/de90a1d0f83962270f92f3eb38c70694/dataset-thumbnail.jpg?t=2020-07-22-17-37-26","datasetVersionUrl":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":2198790,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2198790-kg.jpg","isOrganization":false,"name":"Chris Murphy","profileUrl":"/mur418","slug":"mur418","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":null,"doi":null,"databundleVersionId":1378308}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":false,"type":"fileset","diffType":"versioned","checklistCollapsed":false,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":0.7647059,"columnDescriptionScore":1.0,"coverImageScore":1.0,"fileDescriptionScore":1.0,"fileFormatScore":1.0,"licenseScore":0.0,"overviewScore":1.0,"provenanceScore":0.0,"publicKernelScore":1.0,"subtitleScore":1.0,"tagScore":1.0,"updateFrequencyScore":0.0},"bookmarked":false,"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":0,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/","isOrganization":false,"name":null,"profileUrl":"/","slug":null,"maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":2198790,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2198790-kg.jpg","isOrganization":false,"name":"Chris Murphy","profileUrl":"/mur418","slug":"mur418","maxFileSizeBytes":null,"userTier":1,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"Win your fantasy league this year!","description":"### Context\n\nI love playing fantasy football, but I usually never make it to the playoffs. In an attempt to win my Fantasy this year, I will be gather fantasy football projections from as many websites as possible, and figure out how to combine them in a way that helps me make the best draft picks possible. This dataset currently includes all available 2019 Fantasy stats and 2020 Projections.\n\n\n### Content\n\nThe data is divided based on position. Quarterback, Running Back, Wide Receiver, Tight End, Defense, and Kicker are all fantasy positions. For each position, there may be slightly different stats, but for all positions, there are player names (or just team name for defense), and a projected amount of fantasy points for the 2020 season.\n\nPlease note: all data was scraped on July 17th, and 2020 projections are subject to change.\n\n\n### Acknowledgements\n\nThank you, ESPN, for publishing your 2020 NFL Fantasy Projections.\n\n\n### Inspiration\n\nCan we make more accurate fantasy predictions than ESPN?\n\nWhich players are underrated going into the 2020 season?\n\nWhich players are overrated going into the 2020 season?\n\nAssume a 12 team fantasy league with 14 draft rounds. Each week you can play 1 QB, 2RB, 2WR, 1TE, 1 FLEX (TE, RB or WR), 1 D/ST, 1 Kicker.. which positions should you draft first?","actions":[],"flags":[],"title":"ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS","slug":"espn-2019-stats-and-2020-nfl-fantasy-projections","licenseId":4,"data":{"firestorePath":"e7Tn6TH9nZ9p17y2q3eh/versions/QkNrUpZkeS9pCw0OU5kV","databundleVersionId":1378308,"databundle":{"type":"databundle","databundleInfo":{"currentDatabundleVersionId":1378308,"databundleType":"dataset","diffType":"versioned","creationDate":"2020-07-17T14:59:48.0085974Z","creatorUserId":2198790,"removalDate":null,"currentGoodVersionKey":"QkNrUpZkeS9pCw0OU5kV","lastestVersionKey":"QkNrUpZkeS9pCw0OU5kV","versions":{"totalChildren":1,"count":0,"children":[]}},"datasetInfo":{"datasetId":782808,"datasetSlug":"/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections","isPrivate":true},"competitionInfo":null,"remoteDatasourceInfo":null,"bigqueryInfo":null,"githubInfo":null,"key":"e7Tn6TH9nZ9p17y2q3eh","path":"e7Tn6TH9nZ9p17y2q3eh","legacyEntityId":803221,"relativeUrl":"","name":"ESPN 2019 STATS AND 2020 NFL FANTASY PROJECTIONS","description":null},"databundleVersion":{"type":"databundleVersion","databundleVersionInfo":{"versionNumber":1,"versionNotes":"Initial release","creatorUserId":2198790,"creationDate":"2020-07-17T14:59:48.0085995Z","removalDate":null,"databundleVersionType":"fileset","objectTypeCount":{}},"datasetVersionInfo":{"datasetVersionId":1345928},"statusInfo":{"status":"ready","statusMessage":"Ready","percentageCompleted":1.0},"exceptionInfo":{"criticalException":null,"warningExceptions":[]},"filesetInfo":{"totalSize":308823,"directories":{"totalChildren":0,"count":0,"children":[]},"files":{"totalChildren":6,"count":0,"children":[]}},"originalCompressionInfo":null,"bundleCompressionInfo":{"filename":"archive.zip","fileExtension":".zip","fileSize":107005,"contentEncoding":"application/zip","contentMD5":"fXzKZefO9gk/OIW2qqB/TA==","archiveGcsUrl":"gs://kaggle-data-sets/782808/1345928/bundle/archive.zip","creationLastUpdate":"2020-07-17T14:59:52.0214969Z","creationPercentComplete":1.0},"bigquerySnapshotInfo":null,"storageInfo":{"uploadDataLocation":{"bucket":"kaggle-data-sets","path":"782808/1345928/upload"},"rawDataLocation":{"bucket":"kagglesdsdata","path":"datasets/782808/1345928"},"individualCompressedLocation":{"bucket":"kaggle-data-sets","path":"782808/1345928/compressed"},"bundleArchiveLocation":{"bucket":"kaggle-data-sets","path":"782808/1345928/bundle/archive.zip"},"fileSystemLocation":{"bucket":"kaggle-data-sources","path":"datasets/782808/1345928/fs/embedded_fs"}},"fileSummaryInfo":{"fileTypes":[{"extension":".csv","fileCount":6,"totalSize":308823}],"sampleFileNames":["te_stats_and_projections.csv","wr_stats_and_projections.csv","rb_stats_and_projections.csv","qb_stats_and_projections.csv","kicker_stats_and_projections.csv","defense_stats_and_projections.csv"],"totalFileCount":6},"columnSummaryInfo":{"columnTypes":[{"columnType":"Decimal","columnCount":94,"rowCount":17214},{"columnType":"String","columnCount":22,"rowCount":3944},{"columnType":"Integer","columnCount":18,"rowCount":1386}],"sampleColumnNames":["2020 SCK","2019 FPTS","2019 YA","2019 PA","2019 TD","2019 FR","2019 INT","2019 SCK","TEAM NAME",""],"totalColumnCount":134},"externalCopyInfo":null,"originalRemoteUrlInfo":null,"key":"QkNrUpZkeS9pCw0OU5kV","path":"e7Tn6TH9nZ9p17y2q3eh/versions/QkNrUpZkeS9pCw0OU5kV","legacyEntityId":1378308,"relativeUrl":"","name":"Version 1","description":"Initial release"}},"isPrivate":false,"owner":{"id":2198790,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2198790-kg.jpg","isOrganization":false,"name":"Chris Murphy","profileUrl":"/mur418","slug":"mur418","maxFileSizeBytes":null,"userTier":1,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==" type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    "HTML-CSS": {
-    preferredFont: "TeX",
-    availableFonts: ["STIX", "TeX"],
-    linebreaks: {
-    automatic: true
-    },
-    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
-    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
-    processEscapes: true,
-    ignoreClass: "tex2jax_ignore|dno"
-    },
-    TeX: {
-    noUndefined: {
-    attributes: {
-    mathcolor: "red",
-    mathbackground: "#FFEEEE",
-    mathsize: "90%"
-    }
-    }
-    },
-    Macros: {
-    href: "{}"
-    },
-    skipStartupTypeset: true,
-    messageStyle: "none",
-    extensions: [],
-    });
-</script>
-<script type="text/javascript" nonce="7LgXAL/Oqern7I&#x2B;Xj2MRdQ==">
-  window.addEventListener("DOMContentLoaded", () => {
-    const head = document.getElementsByTagName("head")[0];
-    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
-    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
-
-    const lib = document.createElement("script");
-    lib.type = "text/javascript";
-    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
-    head.appendChild(lib);
-  });
-</script>
-
-
-</div>
-
-
-
-
-    </main>
-</body>
-</html>
+,TEAM NAME,2019 SCK,2019 INT,2019 FR,2019 TD,2019 PA,2019 YA,2019 FPTS,2020 SCK,2020 INT,2020 FR,2020 TD,2020 PA,2020 YA,2020 FPTS,2020 OUTLOOK
+1,Steelers D/ST,54,20,18,4,285,4866,181.0,44,13,12,3,303,5443,137.08,"Following a rough start to the 2019 season, Pittsburgh's D/ST went on to finish second in fantasy points, marking the unit's fourth top-eight finish over the past five seasons. Pittsburgh was a big-play machine, ranking no worse than fifth in forced turnovers, yardage allowed and points allowed, as well as first in sacks for the third consecutive season. Other than Javon Hargrave, the entire 2019 defensive core is set to return for 2020. The likes of T.J. Watt, Cameron Heyward and Minkah Fitzpatrick provide this unit with plenty of star power, and youngsters Devin Bush and Terrell Edmunds could add to it this season. The Steelers' D/ST should be one of the first off the board during your draft."
+2,Bills D/ST,44,14,9,1,251,4772,131.0,41,13,11,3,306,5352,134.16,"Yet another strong performance from Sean McDermott's defense helped the Bills' D/ST to a second-consecutive top-seven fantasy season in 2019. Buffalo ranked no worse than eighth in interceptions, forced fumbles and points allowed, and was top-three in yardage allowed for the second consecutive season. While Lorenzo Alexander (retirement) will be missed, the Buffalo defense is arguably better after adding Quinton Jefferson, Mario Addison and Josh Norman. Led by the likes of Tre'Davious White, Jordan Poyer, Micah Hyde, Jerry Hughes and emerging youngsters Ed Oliver and Tremaine Edmunds, the Bills' D/ST is arguably your best option in fantasy."
+3,49ers D/ST,48,12,15,5,296,4509,164.0,44,13,13,3,321,5489,124.74,"After four consecutive seasons finishing 29th or worse, the 49ers' D/ST climbed all the way up to third during a breakout 2019. San Francisco ranked no lower than fifth in forced fumbles, sacks, yardage allowed, points allowed and D/ST touchdowns. Trading away arguably their best player in DeForest Buckner is a big loss for the 49ers, but the good news is that the rest of the team's 2019 core remains in place. Nick Bosa, Arik Armstead, Richard Sherman and Jimmie Ward provide the star power, with Kwon Alexander and Dee Ford likely to bring more to the table at full health this season. The 49ers' D/ST remains a top fantasy option."
+4,Colts D/ST,41,15,8,3,355,5549,114.0,42,11,10,3,314,5446,122.57,"The Colts' D/ST has finished 13th in fantasy points each of the past two seasons, but the unit is trending up following the offseason acquisition of star DT DeForest Buckner. The former 49ers standout should help generate pressure for a unit that has finished top 10 in interceptions each of the past two seasons, but 15th or worse in sacks each of the past five seasons. The Indianapolis defense otherwise saw only minor offseason turnover and returns a unit led by Buckner, Justin Houston, Darius Leonard, Kenny Moore and Malik Hooker. As an added bonus, Nyheim Hines was responsible for two of the league's seven punt return touchdowns last season. Consider the Colts' D/ST a midrange starting unit."
+5,Patriots D/ST,47,25,11,7,195,4414,225.0,41,14,8,2,314,5438,122.18,"The Patriots were the top-scoring fantasy D/ST by a massive 34 points last season. No D/ST has finished No. 1 in the category in back-to-back seasons over the past decade, but New England has been very reliable under Bill Belichick, ranking in the top 10 seven of the past eight seasons. Last season's unit was incredible, ranking first or second in INTs, yardage allowed, points allowed, D/ST touchdowns and forced turnovers. Though we should expect another solid campaign, keep in mind that the Patriots already regressed from their early 2019 dominance, ranking as the No. 12 D/ST from Week 9 on. The unit also had a rough offseason, losing and not completely replacing key performers Kyle Van Noy, Jamie Collins, Duron Harmon and Danny Shelton. A stacked secondary led by Stephon Gilmore and Devin McCourty remains in place, but we should expect a return to midrange starter production from this unit in 2020."
+6,Ravens D/ST,37,13,12,6,282,4809,152.0,42,14,10,2,328,5485,118.39,"The Ravens lost a ton of top-end talent during the 2019 free-agency period and it showed early, but quality coaching and a few in-season transactions turned things around and allowed their D/ST a third consecutive top-four fantasy season. Baltimore ranked fourth in yardage allowed, third in points allowed and second in D/ST touchdowns, with six. The 2020 offseason brought another exodus of key defenders, including Brandon Carr, Michael Pierce and Patrick Onwuasor, but the additions of Calais Campbell, Derek Wolfe and first-round pick Patrick Queen, as well as the return of Tavon Young to a loaded secondary, sets this unit up for another strong campaign. Consider the Ravens' D/ST a solid starting option."
+7,Broncos D/ST,40,10,6,1,310,5392,81.0,39,13,8,2,307,5542,112.55,"The Broncos' D/ST has finished in the upper half of the league in fantasy points eight of the past nine seasons and, though 2019 was the exception, there is reason for optimism that Vic Fangio's unit will make a leap in 2020. Denver struggled with big plays last season (27th in forced turnovers and one touchdown), but ranked 12th or better in both yardage and points allowed. The offseason additions of Jurrell Casey and A.J. Bouye, as well as a return to health for Bradley Chubb and Bryce Callahan, more than offset the losses of Chris Harris and Derek Wolfe. Add that to a core that includes Von Miller, Justin Simmons, Kareem Jackson and unheralded AJ Johnson, and the Denver D/ST has the look of a fantasy starter in 2020."
+8,Saints D/ST,51,13,10,4,341,5329,128.0,42,13,10,3,337,5602,110.5,"The Saints' D/ST finished eighth in fantasy points last season and has now produced a pair of top-10 campaigns over the past three seasons. New Orleans has finished top five in sacks each of the past two seasons and came in average or better in interceptions, forced turnovers, yardage allowed and points allowed during both campaigns. The team's offseason departures (Vonn Bell, Eli Apple and A.J. Klein) all have replacements (Malcolm Jenkins, Janoris Jenkins and Alex Anzalone, respectively), and literally every other defender who played at least 32 snaps last season remains on the roster. With Cameron Jordan, Demario Davis, Marshon Lattimore, Marcus Williams and Sheldon Rankins also in the fold, the Saints' D/ST is a starting-caliber unit with big upside."
+9,Bears D/ST,32,10,9,2,298,5186,95.0,39,11,11,3,343,5461,110.21,"One season after dominating the NFL with 55 more fantasy points than any other D/ST, Chicago plummeted to 15th in 2019. The Bears fell from a league-high 11 top-10 fantasy weeks in 2018 to three (24th) in 2019. Chicago was still solid in terms of yardage (eighth) and points (fifth) allowed, but plummeted from first to 22nd in forced turnovers and third to 24th in sacks. On the plus side, impact KR Cordarrelle Patterson scored his fifth return touchdown in as many seasons. The Bears lost three of their top six and seven of their top 12 defenders in terms of snaps during the offseason, including Ha Ha Clinton-Dix, Leonard Floyd and Prince Amukamara. The addition of Robert Quinn and return of Akiem Hicks will help, but, even with the likes of Khalil Mack, Eddie Jackson, Danny Trevathan and Kyle Fuller, this unit isn't nearly as intimidating as it was in 2018. Consider it a back-end starting option."
+10,Vikings D/ST,48,17,14,2,301,5465,132.0,39,13,11,3,330,5650,107.41,"The Minnesota D/ST posted its second consecutive fifth-place fantasy campaign last season and has now finished no lower than 11th over the past five seasons. Minnesota has finished top seven in points allowed each of the past five seasons, top five in sacks each of the past two seasons and was top five in both interceptions and forced fumbles in 2019. Despite the success, it's fair to expect a step back in 2020 following the departures of Everson Griffen, Linval Joseph and literally all three of the team's top three corners from 2019. The addition of Michael Pierce helps, and star power remains in the form of Danielle Hunter, Eric Kendricks, Harrison Smith and Anthony Harris, but unproven cornerbacks and overall depth are major red flags. Consider the Minnesota D/ST a borderline fantasy starter."
+11,Buccaneers D/ST,47,12,16,6,405,5503,126.0,40,13,12,2,354,5660,105.91,"All eyes are on Tom Brady and the Tampa Bay offense this offseason, but don't overlook a defense that is trending in the right direction. The upward trajectory began last season, with Tampa Bay scoring 15 more fantasy points than the next-closest D/ST from Week 12 on. In total, the Buccaneers ended up third in forced fumbles, seventh in sacks, first in passes defensed and second in D/ST touchdowns. Tampa Bay re-signed Ndamukong Suh, Shaquil Barrett and Jason Pierre-Paul during the offseason, which means 11 of team's top 12 snap-getters on defense are on the 2020 roster. The defense is also loaded with recent early-round picks who could make a leap, including Antoine Winfield Jr., Devin White, Vita Vea, Carlton Davis, Sean Murphy-Bunting, Jamel Dean and Mike Edwards. Add in standout LB Lavonte David and Justin Evans' return from a foot injury and you have the look of a D/ST that could take a big leap in 2020."
+12,Jets D/ST,35,12,9,6,341,5170,129.0,37,13,9,2,359,5457,103.25,"The Jets' D/ST hasn't been a dominant fantasy force since the Rex Ryan era, but the unit took a step forward with a seventh-place finish in 2019. New York allowed the seventh-fewest yards, paced the league with 117 tackles for loss and scored six D/ST touchdowns. Holes remain at cornerback and edge rusher, but there's something to be said for continuity as 15 of the team's top 16 defenders in snaps played last season remain on the roster. Jamal Adams, second-year Quinnen Williams and now-healthy C.J. Mosley set this unit up with plenty of potential star power. Consider the Jets' D/ST a back-end starting option."
+13,Chargers D/ST,30,11,3,1,327,5009,80.0,36,11,7,3,317,5564,101.38,"The Chargers fell well short of lofty expectations in 2019, and that also applies to the team's D/ST. The unit fell to 21st in fantasy points following three consecutive top-12 campaigns. Los Angeles still showed well in terms of yards (sixth) and points (12th) allowed, but forced a league-low 14 turnovers and managed only 30 sacks (28th). Thomas Davis and Adrian Phillips were the team's only significant offseason losses, with the overall defense upgraded following the addition of Linval Joseph, Chris Harris Jr. and first-round-pick Kenneth Murray to a group that also includes Joey Bosa, Melvin Ingram, Derwin James, Casey Hayward and Desmond King (who has returned one punt for a touchdown each of the past two seasons). This is a fringe starting D/ST."
+14,Cowboys D/ST,39,7,10,1,321,5232,96.0,41,13,9,3,337,5675,100.59,"The Dallas D/ST has been a mid-pack fantasy unit each of the past five seasons, but some savvy offseason moves have the Cowboys pointed in the right direction for 2020. Byron Jones, Robert Quinn, Maliek Collins and Jeff Heath are out, but Gerald McCoy, Dontari Poe, Ha Ha Clinton-Dix and perhaps Randy Gregory and Aldon Smith are in, not to mention a return to full health for Tyrone Crawford and Leighton Vander Esch. Dallas has finished no worse than 11th in points or yardage allowed each of the past three seasons, but hasn't finished better than 24th in sacks since 2014. This is a solid unit and borderline top-10 fantasy D/ST."
+15,Bengals D/ST,31,11,5,1,390,6299,34.0,38,12,9,3,358,5666,94.68,"It's not uncommon for a D/ST to jump from the basement of the league to fantasy relevance in one season, and the Bengals are a strong candidate to do exactly that in 2020. A bottom-four D/ST each of the past two seasons, Cincinnati overhauled its defense with D.J. Reader, Trae Waynes, Mackensie Alexander, Von Bell and Josh Bynes during free agency. They join a solid core led by Geno Atkins, Carlos Dunlap and William Jackson. The improvements were a must for a defense that hasn't ranked in the upper half of the league in forced turnovers, forced fumbles or yardage allowed since 2015. Consider drafting the Bengals' D/ST late in deeper leagues."
+16,Lions D/ST,28,7,11,3,411,6406,39.0,39,12,10,3,365,5709,90.99,No outlook available.
+17,Browns D/ST,38,14,6,1,377,5785,69.0,40,13,9,2,359,5719,87.77,"The Cleveland defense appeared ready for a big step forward in 2019, but underwhelming production in most categories instead left its D/ST without a top-20 fantasy performance for the fifth consecutive season. Cleveland finished 2019 among the top eight teams in interceptions for the second straight season, but came in 20th or worse in sacks for the sixth year in a row. The Browns' defense is in decent shape for 2020, with Myles Garrett, Sheldon Richardson, Olivier Vernon and Denzel Ward offering star power and additions Andrew Billings, Adrian Clayborn, Karl Joseph and Grant Delpit helping to offset a few losses. The Browns' D/ST is a midrange fantasy option."
+18,Chiefs D/ST,45,16,7,4,302,5594,122.0,42,12,9,3,362,5726,85.72,"The Kansas City defense took a big leap forward under Steve Spagnuolo last season and it resulted in an 11th-place fantasy finish for the team's D/ST. The Chiefs haven't finished worse than ninth in interceptions since 2014 or worse than 10th in D/ST touchdowns since 2012. They haven't finished in the upper half of the league in yardage allowed since 2015, but did jump to eighth in points allowed in 2019. Kansas City's defense definitely doesn't pop on paper, but a solid 2019 unit will return its top 11 snap-getters this season. That group includes one of the league's elite players in Chris Jones, as well as stars Tyrann Mathieu and Frank Clark. Led by Tyreek Hill and Mecole Hardman, the Chiefs have at least one kick or punt return touchdown each of the past four seasons. This is a fringe starting-caliber D/ST option."
+19,Rams D/ST,50,13,11,4,340,5434,127.0,40,13,9,3,368,5670,85.58,"The Rams' D/ST finished as fantasy's No. 9 scoring unit last season, which marks its third consecutive top 10 and seventh finish of 12th or better over the past eight seasons. The Rams finished eighth or better in forced turnovers and D/ST touchdowns for the third straight season. Los Angeles' 11 top-10 fantasy weeks last season led the league. Seven of those came in 10 games after Jalen Ramsey joined the team. Despite the strong finish, there's reason for some concern here. Ramsey is back (as are Aaron Donald and John Johnson), but three of the defense's top four snap-getters from 2019 (Cory Littleton, Dante Fowler and Eric Weddle) are among the departed, leaving the team with shaky situations at edge rusher, linebacker and corner. The Rams' D/ST is best left on waivers in most formats."
+20,Titans D/ST,43,14,9,4,331,5752,117.0,37,13,6,2,358,5668,84.54,"The Titans' D/ST finished a respectable 12th in fantasy points last season and has now produced back-to-back top-12 campaigns. The Titans jumped to eighth in interceptions and scored four touchdowns, while ranking in the upper half of the league in sacks for the sixth consecutive season. On the other hand, they fell to 21st in yardage allowed and 13th in point allowed. Jurrell Casey and Logan Ryan were huge offseason losses, but a strong core led by Adoree' Jackson, Kevin Byard, Jayon Brown and Harold Landry remains in place. The Titans' D/ST is best-valued as a middle-of-the-pack option."
+21,Eagles D/ST,43,11,9,3,354,5307,107.0,40,14,10,2,365,5763,84.49,No outlook available.
+22,Dolphins D/ST,23,13,3,2,478,6364,22.0,37,12,9,3,372,5669,84.4,No outlook available.
+23,Seahawks D/ST,28,16,16,3,368,6106,89.0,39,13,8,3,358,5775,84.09,"The Seahawks' D/ST has been trending down in recent seasons, and the unit's 17th-place 2019 campaign marked its worst finish since 2010. Seattle ranked third in the league with 32 forced turnovers last season, but allowed the seventh-most yards, 19th-most points and finished 29th in sacks. Jadeveon Clowney, Quinton Jefferson and Mychal Kendricks lead the team's list of key offseason losses, though the additions of first-round-pick Jordyn Brooks, Quinton Dunbar and Bruce Irvin to a core that includes Bobby Wagner, K.J. Wright, Shaquill Griffin and Jarran Reed removes some of the sting. This has the look of a midrange fantasy D/ST."
+24,Packers D/ST,41,17,7,0,313,5642,89.0,41,12,8,2,361,5801,76.38,No outlook available.
+25,Texans D/ST,31,12,10,2,377,6213,65.0,37,12,10,2,381,5730,74.96,No outlook available.
+26,Cardinals D/ST,40,7,10,0,424,6432,31.0,41,12,10,2,391,5807,72.44,No outlook available.
+27,Raiders D/ST,32,9,6,2,399,5677,55.0,37,13,8,2,368,5826,68.45,No outlook available.
+28,Jaguars D/ST,47,10,9,2,383,6007,79.0,39,13,10,3,404,5834,68.07,No outlook available.
+29,Falcons D/ST,28,12,8,3,375,5693,82.0,35,11,9,3,391,5949,57.26,No outlook available.
+30,Washington D/ST,46,13,9,1,417,6162,65.0,37,12,8,3,415,5836,57.17,No outlook available.
+31,Giants D/ST,36,10,6,3,431,6037,57.0,36,12,7,2,405,5979,51.68,No outlook available.
+32,Panthers D/ST,53,14,7,1,464,5992,72.0,35,11,8,3,430,6044,46.82,No outlook available.
