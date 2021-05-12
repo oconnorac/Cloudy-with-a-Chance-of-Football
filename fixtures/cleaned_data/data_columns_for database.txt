@@ -116,42 +116,42 @@ column 40 : PenaltyYards
 column 1 : PlayerID
 column 2 : Name
 column 3 : Team
-column 4: Position
-column 5: Week
-column 6: OpponentRZ
-column 7: PassingYardsRZ
-column 8: PassingTouchdownsRZ
-column 9: PassingInterceptionsRZ
-column 10: RushingYardsRZ
-column 11: RushingTouchdownsRZ
-column 12: ReceptionsRZ
-column 13: ReceivingYardsRZ
-column 14: ReceivingTouchdownsRZ
-column 15: SacksRZ
-column 16: InterceptionsRZ
-column 17: FumblesForcedRZ
-column 18: FumlbesRecoveredRZ
-column 19: FantasyPointsRZ
-column 20: Season
+column 4 : Position
+column 5 : Week
+column 6 : OpponentRZ
+column 7 : PassingYardsRZ
+column 8 : PassingTouchdownsRZ
+column 9 : PassingInterceptionsRZ
+column 10 : RushingYardsRZ
+column 11 : RushingTouchdownsRZ
+column 12 : ReceptionsRZ
+column 13 : ReceivingYardsRZ
+column 14 : ReceivingTouchdownsRZ
+column 15 : SacksRZ
+column 16 : InterceptionsRZ
+column 17 : FumblesForcedRZ
+column 18 : FumlbesRecoveredRZ
+column 19 : FantasyPointsRZ
+column 20 : Season
 
 2020RedZoneStats_cleaned.csv
 column 1 : PlayerID
 column 2 : Name
 column 3 : Team
-column 4: Position
-column 5: Week
-column 6: OpponentRZ
-column 7: PassingYardsRZ
-column 8: PassingTouchdownsRZ
-column 9: PassingInterceptionsRZ
-column 10: RushingYardsRZ
-column 11: RushingTouchdownsRZ
-column 12: ReceptionsRZ
-column 13: ReceivingYardsRZ
-column 14: ReceivingTouchdownsRZ
-column 15: SacksRZ
-column 16: InterceptionsRZ
-column 17: FumblesForcedRZ
-column 18: FumlbesRecoveredRZ
-column 19: FantasyPointsRZ
-column 20: Season
+column 4 : Position
+column 5 : Week
+column 6 : OpponentRZ
+column 7 : PassingYardsRZ
+column 8 : PassingTouchdownsRZ
+column 9 : PassingInterceptionsRZ
+column 10 : RushingYardsRZ
+column 11 : RushingTouchdownsRZ
+column 12 : ReceptionsRZ
+column 13 : ReceivingYardsRZ
+column 14 : ReceivingTouchdownsRZ
+column 15 : SacksRZ
+column 16 : InterceptionsRZ
+column 17 : FumblesForcedRZ
+column 18 : FumlbesRecoveredRZ
+column 19 : FantasyPointsRZ
+column 20 : Season
