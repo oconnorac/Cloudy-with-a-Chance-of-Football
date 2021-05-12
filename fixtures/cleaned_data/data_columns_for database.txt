@@ -4,3 +4,15 @@ example_dataset.csv
 column 1 : databaseColumn1
 column 2 : databaseColumn2
 
+Yaphet columns
+datapros_cleaner.csv
+column 1 : week_id
+column 2 : unique_id
+column 3 : player_name
+column 4 : position
+column 5 : injury_status
+column 6 : predicted
+column 7 : actual
+column 8 : performance
+column 9 : performance_difference
+ 
