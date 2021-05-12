@@ -16,3 +16,15 @@ column 7 : actual
 column 8 : performance
 column 9 : performance_difference
  
+Griffin columns
+NFLBirthdays_cleaned.csv
+column 1 : player
+column 2 : position
+column 3 : team
+column 4 : birthdate
+column 5 : birthyear
+column 6 : birthmonth
+column 7 : birthday
+column 8 : currentyear
+column 9 : age
+
