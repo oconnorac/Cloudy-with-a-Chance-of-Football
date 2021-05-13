@@ -4,3 +4,154 @@ example_dataset.csv
 column 1 : databaseColumn1
 column 2 : databaseColumn2
 
+Yaphet columns
+datapros_cleaner.csv
+column 1 : week_id
+column 2 : unique_id
+column 3 : player_name
+column 4 : position
+column 5 : injury_status
+column 6 : predicted
+column 7 : actual
+column 8 : performance
+column 9 : performance_difference
+ 
+Griffin columns
+NFLBirthdays_cleaned.csv
+column 1 : player
+column 2 : position
+column 3 : team
+column 4 : birthdate
+column 5 : birthyear
+column 6 : birthmonth
+column 7 : birthday
+column 8 : currentyear
+column 9 : age
+
+nflsavant_2019_cleaned.csv
+column 1 : GameId
+column 2 : GameDate
+column 3 : Quarter
+column 4 : Minute
+column 5 : Second
+column 6 : OffenseTeam
+column 7 : DefenseTeam
+column 8 : Down
+column 9 : ToGo
+column 10 : YardLine
+column 11 : SeriesFirstDown
+column 12 : NextScore
+column 13 : Description
+column 14 : TeamWin
+column 15 : SeasonYear
+column 16 : Yards
+column 17 : Formation
+column 18 : PlayType
+column 19 : IsRush
+column 20 : IsPass
+column 21 : IsIncomplete
+column 22 : IsTouchdown
+column 23 : PassType
+column 24 : IsSack
+column 25 : IsChallenge
+column 26 : IsChallengeReversed
+column 27 : IsMeasurement
+column 28 : IsInterception
+column 29 : IsFumble
+column 30 : IsPenalty
+column 31 : IsTwoPointConversion
+column 32 : IsTwoPointConversionSuccessful
+column 33 : RushDirection
+column 34 : YardLineFixed
+column 35 : YardLineDirection
+column 36 : IsPenaltyAccepted
+column 37 : PenaltyTeam
+column 38 : IsNoPlay
+column 39 : PenaltyType
+column 40 : PenaltyYards
+
+nflsavant_2020_cleaned.csv
+column 1 : GameId
+column 2 : GameDate
+column 3 : Quarter
+column 4 : Minute
+column 5 : Second
+column 6 : OffenseTeam
+column 7 : DefenseTeam
+column 8 : Down
+column 9 : ToGo
+column 10 : YardLine
+column 11 : SeriesFirstDown
+column 12 : NextScore
+column 13 : Description
+column 14 : TeamWin
+column 15 : SeasonYear
+column 16 : Yards
+column 17 : Formation
+column 18 : PlayType
+column 19 : IsRush
+column 20 : IsPass
+column 21 : IsIncomplete
+column 22 : IsTouchdown
+column 23 : PassType
+column 24 : IsSack
+column 25 : IsChallenge
+column 26 : IsChallengeReversed
+column 27 : IsMeasurement
+column 28 : IsInterception
+column 29 : IsFumble
+column 30 : IsPenalty
+column 31 : IsTwoPointConversion
+column 32 : IsTwoPointConversionSuccessful
+column 33 : RushDirection
+column 34 : YardLineFixed
+column 35 : YardLineDirection
+column 36 : IsPenaltyAccepted
+column 37 : PenaltyTeam
+column 38 : IsNoPlay
+column 39 : PenaltyType
+column 40 : PenaltyYards
+
+2019RedZoneStats_cleaned.csv
+column 1 : PlayerID
+column 2 : Name
+column 3 : Team
+column 4 : Position
+column 5 : Week
+column 6 : OpponentRZ
+column 7 : PassingYardsRZ
+column 8 : PassingTouchdownsRZ
+column 9 : PassingInterceptionsRZ
+column 10 : RushingYardsRZ
+column 11 : RushingTouchdownsRZ
+column 12 : ReceptionsRZ
+column 13 : ReceivingYardsRZ
+column 14 : ReceivingTouchdownsRZ
+column 15 : SacksRZ
+column 16 : InterceptionsRZ
+column 17 : FumblesForcedRZ
+column 18 : FumlbesRecoveredRZ
+column 19 : FantasyPointsRZ
+column 20 : Season
+
+2020RedZoneStats_cleaned.csv
+column 1 : PlayerID
+column 2 : Name
+column 3 : Team
+column 4 : Position
+column 5 : Week
+column 6 : OpponentRZ
+column 7 : PassingYardsRZ
+column 8 : PassingTouchdownsRZ
+column 9 : PassingInterceptionsRZ
+column 10 : RushingYardsRZ
+column 11 : RushingTouchdownsRZ
+column 12 : ReceptionsRZ
+column 13 : ReceivingYardsRZ
+column 14 : ReceivingTouchdownsRZ
+column 15 : SacksRZ
+column 16 : InterceptionsRZ
+column 17 : FumblesForcedRZ
+column 18 : FumlbesRecoveredRZ
+column 19 : FantasyPointsRZ
+column 20 : Season
