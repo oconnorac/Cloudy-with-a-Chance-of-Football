@@ -31,7 +31,7 @@ We want to know what influences a player's *actual* fantasy score so that we can
 ## Installation
 Begin installing this repository by entering the following into terminal (Mac) or powershell (Windows):
 
-```https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football.git```
+```git clone https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football.git```
 
 Next, switch your directory to this directory by entering the following in terminal or powershell:
 
