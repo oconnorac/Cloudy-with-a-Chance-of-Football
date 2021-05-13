@@ -1,8 +1,14 @@
 # Cloudy with a Chance of Football
 
-Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Data Science at the Georgetown University School of Continuing Studies (Cohort 23, Spring - Summer 2021).
+Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Data Science at the Georgetown University School of Continuing Studies (SCS) (Cohort 23, Spring - Summer 2021).
 
 ![Image](fixtures/images/fantasy_football_image.png)
+
+*Photo courtesy of [Medium](https://bockles.medium.com/how-to-enjoy-fantasy-football-without-being-the-absolute-worst-bcab8b401e17) user Brian Bockleman*
+
+> “Thank you... fantasy football draft, for letting me know that even in my fantasies, I am bad at sports.”   
+> 
+> *Jimmy Fallon*
 
 ## Description
 
@@ -10,34 +16,36 @@ Fantasy football allows fans to act as team managers by drafting, trading for, a
 
 We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.
 
-## Data Sourcing
+## Table of Contents
+🐛 Add links to Wiki for each directory
+| **Directory**     | **Contents** |
+| ----------- | ----------- |
+| bin      | Python data ingestion and database setup scripts |
+| deliverables   | Georgetown SCS-required documents for project reporting |
+| docs   | :bug: Delete this directory and instead discuss in Wiki |
+| fixtures   | Raw and cleaned data, images, and database |
+| foo   | :bug: Add explanation about foo here |
+| notebooks   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
+| tests   | :bug: Add explanation about tests here |
 
-Fantasydata.com
-Nflsavant.com
-Pro-football-reference.com
+## Installation
+Begin installing this repository by entering the following into terminal (Mac) or powershell (Windows):
 
-## Data Architecture
+```https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football.git```
 
-Talk about the structure of the data
+Next, switch your directory to this directory by entering the following in terminal or powershell:
 
-## Machine Learning
+```cd Cloudy-with-a-Chance-of-Football```
 
-We intend to use a classification model with a 80/20 train/test split to determine whether or not a player will perform above or below the projected fantasy points. Critical to this model is engineering binary features to complement the numeric features we have found, and fine-tuning parameters to make the model account for complexities in the selected features, but flexible enough to take in 2021 fantasy projections and help fantasy managers to decide who to draft, start, trade for, and pick up off of the waiver wire.
+Now, ensure you have the proper package versions downloaded by entering the following line into terminal or powershell:
 
-Our intent is to deploy our trained model to a web application that requests basic user input and takes certain features into account to provide a prediction (which could be taken as a recommendation) about a player’s performance in the coming week.
+```pip install requirements.txt```
 
-## Limitations and Areas for Future Study
+## Usage
+🏈 🐛 Add info on how to use this with screenshots or GIFs
 
-Write a little bit about our limitations in conduting this project and areas where this research can be added to
+## Contributing
+At this time, we do not have guidance on how to contribute to this project.
 
-## Conclusion
- 
- Write a project conclusion
- 
-## Acknowledgements
- 
-Thanks to kaggle user Chris Murphy for the use of his data [https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections]
-
-## References
-
-Provide reference material
+## Credits
+Special thanks to Kaggle users [mur418](https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections) and [tobycrabtree](https://www.kaggle.com/tobycrabtree/nfl-scores-and-betting-data), [Fantasy Data](fantasydata.com), [NFLSavant](http://nflsavant.com/), [Data Pros](https://www.fantasyfootballdatapros.com/), and [NFL Weather](http://www.nflweather.com/) for data use.
