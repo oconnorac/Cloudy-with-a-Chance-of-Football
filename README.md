@@ -29,15 +29,15 @@ We want to know what influences a player's *actual* fantasy score so that we can
 | tests   | :bug: Add explanation about tests here |
 
 ## Installation
-Begin installing this repository by entering the following into terminal (Mac) or powershell (Windows):
+**First**, clone this repository by entering the following into terminal (Mac) or powershell (Windows):
 
 ```git clone https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football.git```
 
-Next, switch your directory to this directory by entering the following in terminal or powershell:
+**Next**, switch to this directory by entering the following into terminal or powershell:
 
 ```cd Cloudy-with-a-Chance-of-Football```
 
-Now, ensure you have the proper package versions downloaded by entering the following line into terminal or powershell:
+**Finally** ensure you have the proper package versions downloaded by entering the following line into terminal or powershell:
 
 ```pip install requirements.txt```
 
