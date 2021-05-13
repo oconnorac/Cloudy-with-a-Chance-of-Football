@@ -17,7 +17,6 @@ Fantasy football allows fans to act as team managers by drafting, trading for, a
 We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.
 
 ## Table of Contents
-🐛 Add links to Wiki for each directory
 | **Directory**     | **Contents** |
 | ----------- | ----------- |
 | [bin](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/bin)      | Python data ingestion and database setup scripts |
