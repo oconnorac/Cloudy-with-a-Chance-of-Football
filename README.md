@@ -20,13 +20,13 @@ We want to know what influences a player's *actual* fantasy score so that we can
 🐛 Add links to Wiki for each directory
 | **Directory**     | **Contents** |
 | ----------- | ----------- |
-| bin      | Python data ingestion and database setup scripts |
-| deliverables   | Georgetown SCS-required documents for project reporting |
+| [bin](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/bin)      | Python data ingestion and database setup scripts |
+| [deliverables](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/deliverables)   | Georgetown SCS-required documents for project reporting |
 | docs   | :bug: Delete this directory and instead discuss in Wiki |
-| fixtures   | Raw and cleaned data, images, and database |
-| foo   | :bug: Add explanation about foo here |
-| notebooks   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
-| tests   | :bug: Add explanation about tests here |
+| [fixtures](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/fixtures)   | Raw and cleaned data, images, and database |
+| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | :bug: Add explanation about foo here |
+| [notebooks](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
+| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | :bug: Add explanation about tests here |
 
 ## Installation
 **First**, clone this repository by entering the following into terminal (Mac) or powershell (Windows):
