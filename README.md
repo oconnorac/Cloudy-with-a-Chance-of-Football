@@ -1,49 +1,50 @@
 # Cloudy with a Chance of Football
 
-Cohort 23 capstone project for the Certificate of Data Science at Georgetown University School of Continuing Studies
+Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Data Science at the Georgetown University School of Continuing Studies (SCS) (Cohort 23, Spring - Summer 2021).
 
-Team Members: Griffin, Ermina, Yaphet, and Aidan
+![Image](fixtures/images/fantasy_football_image.png)
 
-## README Contents
+*Photo courtesy of [Medium](https://bockles.medium.com/how-to-enjoy-fantasy-football-without-being-the-absolute-worst-bcab8b401e17) user Brian Bockleman*
 
-Add contents with links to the sections when completed
+> “Thank you... fantasy football draft, for letting me know that even in my fantasies, I am bad at sports.”   
+> 
+> *Jimmy Fallon*
 
-## Abstract
+## Description
 
-Add an abstract
+Fantasy football allows fans to act as team managers by drafting, trading for, acquiring, and playing real football players in on fantasy football platforms, scoring points using a scoring system based on real life performance of their players. Fantasy football platforms (such as [ESPN](https://www.espn.com/fantasy/football/) or [Yahoo!](https://football.fantasysports.yahoo.com/)) apply their own analytics to project player performance weekly during the NFL season in preparation for the upcoming week. It is not uncommon for players to score well above or far below their platform-projected fantasy score, leaving fantasy managers wondering which players to draft, trade for, acquire, and play.
 
-## Background Information
+We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.
 
-In fantasy football, each player has a projected score for their upcoming game. It is not uncommon for a player to have a high projected score only to actually produce a score below projection. On the flip side, it is not uncommon for a player to have a low projected score only to actually produce a score above projection. We are pursuing this project to see what influences a player's actual output score the most so that we can make data based decisions when building a team or starting lineup week to week during the NFL season. We plan on using 2019 and 2020 NFL season data for this project.
+## Table of Contents
+| **Directory**     | **Contents** |
+| ----------- | ----------- |
+| [bin](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/bin)      | Python data ingestion and database setup scripts |
+| [deliverables](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/deliverables)   | Georgetown SCS-required documents for project reporting |
+| docs   | :bug: Delete this directory and instead discuss in Wiki |
+| [fixtures](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/fixtures)   | Raw and cleaned data, images, and database |
+| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | :bug: Add explanation about foo here |
+| [notebooks](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
+| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | :bug: Add explanation about tests here |
 
-## Data Sourcing
+## Installation
+**First**, clone this repository by entering the following into terminal (Mac) or powershell (Windows):
 
-Fantasydata.com
-Nflsavant.com
-Pro-football-reference.com
+```git clone https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football.git```
 
-## Data Architecture
+**Next**, switch to this directory by entering the following into terminal or powershell:
 
-Talk about the structure of the data
+```cd Cloudy-with-a-Chance-of-Football```
 
-## Machine Learning
+**Finally** ensure you have the proper package versions downloaded by entering the following line into terminal or powershell:
 
-We intend to use a classification model with a 80/20 train/test split to determine whether or not a player will perform above or below the projected fantasy points. Critical to this model is engineering binary features to complement the numeric features we have found, and fine-tuning parameters to make the model account for complexities in the selected features, but flexible enough to take in 2021 fantasy projections and help fantasy managers to decide who to draft, start, trade for, and pick up off of the waiver wire.
+```pip install requirements.txt```
 
-Our intent is to deploy our trained model to a web application that requests basic user input and takes certain features into account to provide a prediction (which could be taken as a recommendation) about a player’s performance in the coming week.
+## Usage
+🏈 🐛 Add info on how to use this with screenshots or GIFs
 
-## Limitations and Areas for Future Study
+## Contributing
+At this time, we do not have guidance on how to contribute to this project.
 
-Write a little bit about our limitations in conduting this project and areas where this research can be added to
-
-## Conclusion
- 
- Write a project conclusion
- 
-## Acknowledgements
- 
-Thanks to kaggle user Chris Murphy for the use of his data [https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections]
-
-## References
-
-Provide reference material
+## Credits
+Special thanks to Kaggle users [mur418](https://www.kaggle.com/mur418/espn-2019-stats-and-2020-nfl-fantasy-projections) and [tobycrabtree](https://www.kaggle.com/tobycrabtree/nfl-scores-and-betting-data), [Fantasy Data](fantasydata.com), [NFLSavant](http://nflsavant.com/), [Data Pros](https://www.fantasyfootballdatapros.com/), and [NFL Weather](http://www.nflweather.com/) for data use.
