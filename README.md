@@ -12,7 +12,7 @@ Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Dat
 
 ## Description
 
-Fantasy football allows fans to act as team managers by drafting, trading for, acquiring, and playing real football players in on fantasy football platforms, scoring points using a scoring system based on real life performance of their players. Fantasy football platforms (such as [ESPN](https://www.espn.com/fantasy/football/) or [Yahoo!](https://football.fantasysports.yahoo.com/)) apply their own analytics to project player performance weekly during the NFL season in preparation for the upcoming week. It is not uncommon for players to score well above or far below their platform-projected fantasy score, leaving fantasy managers wondering which players to draft, trade for, acquire, and play.
+Fantasy football allows fans to act as team managers by drafting, trading for, acquiring, and playing real football players on fantasy football platforms, scoring points using a scoring system based on real life performance of their players. Fantasy football platforms (such as [ESPN](https://www.espn.com/fantasy/football/) or [Yahoo!](https://football.fantasysports.yahoo.com/)) apply their own analytics to project player performance weekly during the NFL season in preparation for the upcoming week. It is not uncommon for players to score well above or far below their platform-projected fantasy score, leaving fantasy managers wondering which players to draft, trade for, acquire, and play.
 
 We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.
 
@@ -21,11 +21,10 @@ We want to know what influences a player's *actual* fantasy score so that we can
 | ----------- | ----------- |
 | [bin](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/bin)      | Python data ingestion and database setup scripts |
 | [deliverables](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/deliverables)   | Georgetown SCS-required documents for project reporting |
-| docs   | :bug: Delete this directory and instead discuss in Wiki |
 | [fixtures](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/fixtures)   | Raw and cleaned data, images, and database |
-| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | :bug: Add explanation about foo here |
+| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | :sparkles: Future home of machine learning models |
 | [notebooks](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
-| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | :bug: Add explanation about tests here |
+| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Automated testing scripts |
 
 ## Installation
 **First**, clone this repository by entering the following into terminal (Mac) or powershell (Windows):
@@ -41,7 +40,7 @@ We want to know what influences a player's *actual* fantasy score so that we can
 ```pip install requirements.txt```
 
 ## Usage
-🏈 🐛 Add info on how to use this with screenshots or GIFs
+:sparkles: Add info on how to use this with screenshots or GIFs
 
 ## Contributing
 At this time, we do not have guidance on how to contribute to this project.
