@@ -134,7 +134,7 @@ column 18 : FumlbesRecoveredRZ
 column 19 : FantasyPointsRZ
 column 20 : Season
 
-2020RedZoneStats_cleaned.csv
+red_zone_stats.csv
 column 1 : PlayerID
 column 2 : Name
 column 3 : Team
