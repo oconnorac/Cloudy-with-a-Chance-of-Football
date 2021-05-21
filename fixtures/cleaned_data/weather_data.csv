@@ -1,0 +1,513 @@
+schedule_date,schedule_season,schedule_week,team_home,score_home,score_away,team_away,stadium,stadium_neutral,weather_temperature,weather_wind_mph,weather_humidity,weather_detail,team_away_short,team_home_short,week_id,week_day,weather_wind_mph_number,weather_wind_direction,weather_cloud_cover,weather_precipitation
+2019-09-05,2019,1,Chicago Bears,3,10,Green Bay Packers,Soldier Field,False,65,7mi East - SouthEast,0.66,Clear,GB,CHI,2019_1,3,7,East - SouthEast,0.1,0.0
+2019-09-08,2019,1,Arizona Cardinals,27,27,Detroit Lions,University of Phoenix Stadium,False,72,0.0,0.32,DOME,DET,ARZ,2019_1,6,0,No wind,0.39,0.0
+2019-09-08,2019,1,Carolina Panthers,27,30,Los Angeles Rams,Bank of America Stadium,False,85,3mi East,0.48,Clear,LAR,CAR,2019_1,6,3,East,0.0,0.0
+2019-09-08,2019,1,Cleveland Browns,13,43,Tennessee Titans,FirstEnergy Stadium,False,69,6mi NorthEast,0.64,Mostly Cloudy,TEN,CLV,2019_1,6,6,NorthEast,0.61,0.0
+2019-09-08,2019,1,Dallas Cowboys,35,17,New York Giants,AT&T Stadium,False,72,0.0,0.28,DOME,NYG,DAL,2019_1,6,0,No wind,0.8,0.0
+2019-09-08,2019,1,Jacksonville Jaguars,26,40,Kansas City Chiefs,TIAA Bank Field,False,93,3mi SouthWest,0.48,Clear,KC,JAX,2019_1,6,3,SouthWest,0.0,0.0
+2019-09-08,2019,1,Los Angeles Chargers,30,24,Indianapolis Colts,StubHub Center,False,73,6mi South - SouthWest,0.67,Clear,IND,LAC,2019_1,6,6,South - SouthWest,0.4,0.0
+2019-09-08,2019,1,Miami Dolphins,10,59,Baltimore Ravens,Hard Rock Stadium,False,89,7mi SouthEast,0.63,Humid and Mostly Cloudy,BLT,MIA,2019_1,6,7,SouthEast,0.67,0.0
+2019-09-08,2019,1,Minnesota Vikings,28,12,Atlanta Falcons,U.S. Bank Stadium,False,72,0.0,0.93,DOME,ATL,MIN,2019_1,6,0,No wind,0.1,0.1
+2019-09-08,2019,1,New England Patriots,33,3,Pittsburgh Steelers,Gillette Stadium,False,64,3mi NorthWest,0.66,Partly Cloudy,PIT,NE,2019_1,6,3,NorthWest,0.35,0.0
+2019-09-08,2019,1,New York Jets,16,17,Buffalo Bills,MetLife Stadium,False,74,4mi West - NorthWest,0.5,Partly Cloudy,BUF,NYJ,2019_1,6,4,West - NorthWest,0.24,0.0
+2019-09-08,2019,1,Philadelphia Eagles,32,27,Washington Redskins,Lincoln Financial Field,False,79,4mi West,0.39,Partly Cloudy,WAS,PHI,2019_1,6,4,West,0.16,0.0
+2019-09-08,2019,1,Seattle Seahawks,21,20,Cincinnati Bengals,CenturyLink Field,False,66,4mi South,0.76,Overcast,CIN,SEA,2019_1,6,4,South,0.96,0.0
+2019-09-08,2019,1,Tampa Bay Buccaneers,17,31,San Francisco 49ers,Raymond James Stadium,False,91,5mi SouthWest,0.54,Humid and Partly Cloudy,SF,TB,2019_1,6,5,SouthWest,0.32,0.0
+2019-09-09,2019,1,New Orleans Saints,30,28,Houston Texans,Mercedes-Benz Superdome,False,72,0.0,0.6,DOME,HST,NO,2019_1,0,0,No wind,0.55,0.0
+2019-09-09,2019,1,Oakland Raiders,24,16,Denver Broncos,Oakland Coliseum,False,64,10mi West - SouthWest,0.69,Partly Cloudy,DEN,LV,2019_1,0,10,West - SouthWest,0.2,0.0
+2019-09-12,2019,2,Carolina Panthers,14,20,Tampa Bay Buccaneers,Bank of America Stadium,False,86,1mi SouthEast,0.54,Drizzle,TB,CAR,2019_2,3,1,SouthEast,0.12,0.1
+2019-09-15,2019,2,Atlanta Falcons,24,20,Philadelphia Eagles,Mercedes-Benz Stadium,False,72,0.0,0.56,DOME,PHI,ATL,2019_2,6,0,No wind,0.31,0.0
+2019-09-15,2019,2,Baltimore Ravens,23,17,Arizona Cardinals,M&T Bank Stadium,False,81,3mi North - NorthWest,0.45,Clear,ARZ,BLT,2019_2,6,3,North - NorthWest,0.0,0.0
+2019-09-15,2019,2,Cincinnati Bengals,17,41,San Francisco 49ers,Paul Brown Stadium,False,82,3mi South - SouthWest,0.41,Clear,SF,CIN,2019_2,6,3,South - SouthWest,0.0,0.0
+2019-09-15,2019,2,Denver Broncos,14,16,Chicago Bears,Sports Authority Field at Mile High,False,88,4mi NorthEast,0.11,Mostly Cloudy,CHI,DEN,2019_2,6,4,NorthEast,0.62,0.0
+2019-09-15,2019,2,Detroit Lions,13,10,Los Angeles Chargers,Ford Field,False,72,0.0,0.79,DOME,LAC,DET,2019_2,6,0,No wind,0.96,0.0
+2019-09-15,2019,2,Green Bay Packers,21,16,Minnesota Vikings,Lambeau Field,False,72,3mi South,0.75,Overcast,MIN,GB,2019_2,6,3,South,0.1,0.0
+2019-09-15,2019,2,Houston Texans,13,12,Jacksonville Jaguars,NRG Stadium,False,72,0.0,0.45,DOME,JAX,HST,2019_2,6,0,No wind,0.47,0.0
+2019-09-15,2019,2,Los Angeles Rams,27,9,New Orleans Saints,Los Angeles Memorial Coliseum,False,84,5mi South - SouthWest,0.46,Partly Cloudy,NO,LAR,2019_2,6,5,South - SouthWest,0.16,0.0
+2019-09-15,2019,2,Miami Dolphins,0,43,New England Patriots,Hard Rock Stadium,False,90,9mi West,0.66,Humid and Mostly Cloudy,NE,MIA,2019_2,6,9,West,0.65,0.0
+2019-09-15,2019,2,New York Giants,14,28,Buffalo Bills,MetLife Stadium,False,80,2mi West - NorthWest,0.46,Partly Cloudy,BUF,NYG,2019_2,6,2,West - NorthWest,0.15,0.0
+2019-09-15,2019,2,Oakland Raiders,10,28,Kansas City Chiefs,Oakland Coliseum,False,66,9mi SouthWest,0.65,Partly Cloudy,KC,LV,2019_2,6,9,SouthWest,0.38,0.0
+2019-09-15,2019,2,Pittsburgh Steelers,26,28,Seattle Seahawks,Heinz Field,False,78,1mi North - NorthWest,0.48,Clear,SEA,PIT,2019_2,6,1,North - NorthWest,0.0,0.0
+2019-09-15,2019,2,Tennessee Titans,17,19,Indianapolis Colts,Nissan Stadium,False,92,1mi East - SouthEast,0.45,Clear,IND,TEN,2019_2,6,1,East - SouthEast,0.0,0.0
+2019-09-15,2019,2,Washington Redskins,21,31,Dallas Cowboys,FedEx Field,False,82,3mi NorthWest,0.46,Clear,DAL,WAS,2019_2,6,3,NorthWest,0.0,0.0
+2019-09-16,2019,2,New York Jets,3,23,Cleveland Browns,MetLife Stadium,False,71,1mi East - SouthEast,0.78,Mostly Cloudy,CLV,NYJ,2019_2,0,1,East - SouthEast,0.81,0.0
+2019-09-19,2019,3,Jacksonville Jaguars,20,7,Tennessee Titans,TIAA Bank Field,False,73,7mi NorthEast,0.86,Mostly Cloudy,TEN,JAX,2019_3,3,7,NorthEast,0.85,0.0
+2019-09-22,2019,3,Arizona Cardinals,20,38,Carolina Panthers,University of Phoenix Stadium,False,72,0.0,0.9,DOME,CAR,ARZ,2019_3,6,0,No wind,0.4,0.0
+2019-09-22,2019,3,Buffalo Bills,21,17,Cincinnati Bengals,New Era Field,False,79,9mi West - SouthWest,0.55,Mostly Cloudy,CIN,BUF,2019_3,6,9,West - SouthWest,0.75,0.0
+2019-09-22,2019,3,Cleveland Browns,13,20,Los Angeles Rams,FirstEnergy Stadium,False,82,5mi South - SouthWest,0.43,Clear,LAR,CLV,2019_3,6,5,South - SouthWest,0.1,0.0
+2019-09-22,2019,3,Dallas Cowboys,31,6,Miami Dolphins,AT&T Stadium,False,72,0.0,0.56,DOME,MIA,DAL,2019_3,6,0,No wind,0.73,0.0
+2019-09-22,2019,3,Green Bay Packers,27,16,Denver Broncos,Lambeau Field,False,69,5mi SouthWest,0.93,Overcast,DEN,GB,2019_3,6,5,SouthWest,0.1,0.0
+2019-09-22,2019,3,Indianapolis Colts,27,24,Atlanta Falcons,Lucas Oil Stadium,False,72,0.0,0.44,DOME,ATL,IND,2019_3,6,0,No wind,0.0,0.0
+2019-09-22,2019,3,Kansas City Chiefs,33,28,Baltimore Ravens,Arrowhead Stadium,False,69,3mi SouthWest,0.94,Overcast,BLT,KC,2019_3,6,3,SouthWest,0.1,0.0
+2019-09-22,2019,3,Los Angeles Chargers,20,27,Houston Texans,StubHub Center,False,84,4mi South,0.46,Partly Cloudy,HST,LAC,2019_3,6,4,South,0.36,0.0
+2019-09-22,2019,3,Minnesota Vikings,34,14,Oakland Raiders,U.S. Bank Stadium,False,72,0.0,0.75,DOME,LV,MIN,2019_3,6,0,No wind,0.81,0.0
+2019-09-22,2019,3,New England Patriots,30,14,New York Jets,Gillette Stadium,False,82,8mi SouthWest,0.45,Clear,NYJ,NE,2019_3,6,8,SouthWest,0.0,0.0
+2019-09-22,2019,3,Philadelphia Eagles,24,27,Detroit Lions,Lincoln Financial Field,False,86,5mi South - SouthWest,0.47,Clear,DET,PHI,2019_3,6,5,South - SouthWest,0.0,0.0
+2019-09-22,2019,3,San Francisco 49ers,24,20,Pittsburgh Steelers,Levi's Stadium,False,82,6mi West - NorthWest,0.32,Partly Cloudy,PIT,SF,2019_3,6,6,West - NorthWest,0.32,0.0
+2019-09-22,2019,3,Seattle Seahawks,27,33,New Orleans Saints,CenturyLink Field,False,62,7mi South,0.83,Drizzle,NO,SEA,2019_3,6,7,South,0.1,0.1
+2019-09-22,2019,3,Tampa Bay Buccaneers,31,32,New York Giants,Raymond James Stadium,False,89,8mi East - NorthEast,0.48,Partly Cloudy,NYG,TB,2019_3,6,8,East - NorthEast,0.46,0.0
+2019-09-23,2019,3,Washington Redskins,15,31,Chicago Bears,FedEx Field,False,82,3mi West - SouthWest,0.48,Overcast,CHI,WAS,2019_3,0,3,West - SouthWest,0.89,0.0
+2019-09-26,2019,4,Green Bay Packers,27,34,Philadelphia Eagles,Lambeau Field,False,60,2mi South,0.57,Clear,PHI,GB,2019_4,3,2,South,0.0,0.0
+2019-09-29,2019,4,Arizona Cardinals,10,27,Seattle Seahawks,University of Phoenix Stadium,False,72,0.0,0.36,DOME,SEA,ARZ,2019_4,6,0,No wind,0.38,0.0
+2019-09-29,2019,4,Atlanta Falcons,10,24,Tennessee Titans,Mercedes-Benz Stadium,False,72,0.0,0.52,DOME,TEN,ATL,2019_4,6,0,No wind,0.16,0.0
+2019-09-29,2019,4,Baltimore Ravens,25,40,Cleveland Browns,M&T Bank Stadium,False,82,5mi NorthEast,0.55,Partly Cloudy,CLV,BLT,2019_4,6,5,NorthEast,0.34,0.0
+2019-09-29,2019,4,Buffalo Bills,10,16,New England Patriots,New Era Field,False,57,10mi East - NorthEast,0.8,Mostly Cloudy,NE,BUF,2019_4,6,10,East - NorthEast,0.75,0.0
+2019-09-29,2019,4,Chicago Bears,16,6,Minnesota Vikings,Soldier Field,False,66,6mi East,0.91,Overcast,MIN,CHI,2019_4,6,6,East,0.1,0.0
+2019-09-29,2019,4,Denver Broncos,24,26,Jacksonville Jaguars,Sports Authority Field at Mile High,False,86,12mi South - SouthWest,0.1,Partly Cloudy,JAX,DEN,2019_4,6,12,South - SouthWest,0.13,0.0
+2019-09-29,2019,4,Detroit Lions,30,34,Kansas City Chiefs,Ford Field,False,72,0.0,0.89,DOME,KC,DET,2019_4,6,0,No wind,0.1,0.1
+2019-09-29,2019,4,Houston Texans,10,16,Carolina Panthers,NRG Stadium,False,72,0.0,0.56,DOME,CAR,HST,2019_4,6,0,No wind,0.65,0.0
+2019-09-29,2019,4,Indianapolis Colts,24,31,Oakland Raiders,Lucas Oil Stadium,False,72,0.0,0.85,DOME,LV,IND,2019_4,6,0,No wind,0.1,0.0
+2019-09-29,2019,4,Los Angeles Rams,40,55,Tampa Bay Buccaneers,Los Angeles Memorial Coliseum,False,70,6mi South - SouthWest,0.5,Partly Cloudy,TB,LAR,2019_4,6,6,South - SouthWest,0.16,0.0
+2019-09-29,2019,4,Miami Dolphins,10,30,Los Angeles Chargers,Hard Rock Stadium,False,86,11mi NorthEast,0.6,Mostly Cloudy,LAC,MIA,2019_4,6,11,NorthEast,0.54,0.0
+2019-09-29,2019,4,New Orleans Saints,12,10,Dallas Cowboys,Mercedes-Benz Superdome,False,72,0.0,0.71,DOME,DAL,NO,2019_4,6,0,No wind,0.0,0.0
+2019-09-29,2019,4,New York Giants,24,3,Washington Redskins,MetLife Stadium,False,78,6mi North,0.43,Clear,WAS,NYG,2019_4,6,6,North,0.1,0.0
+2019-09-30,2019,4,Pittsburgh Steelers,27,3,Cincinnati Bengals,Heinz Field,False,75,1mi SouthEast,0.78,Clear,CIN,PIT,2019_4,0,1,SouthEast,0.0,0.0
+2019-10-03,2019,5,Seattle Seahawks,30,29,Los Angeles Rams,CenturyLink Field,False,55,5mi South,0.76,Overcast,LAR,SEA,2019_5,3,5,South,0.91,0.0
+2019-10-06,2019,5,Carolina Panthers,34,27,Jacksonville Jaguars,Bank of America Stadium,False,74,1mi East,0.57,Overcast,JAX,CAR,2019_5,6,1,East,0.93,0.0
+2019-10-06,2019,5,Cincinnati Bengals,23,26,Arizona Cardinals,Paul Brown Stadium,False,76,6mi West - SouthWest,0.6,Mostly Cloudy,ARZ,CIN,2019_5,6,6,West - SouthWest,0.87,0.0
+2019-10-06,2019,5,Dallas Cowboys,24,34,Green Bay Packers,AT&T Stadium,False,72,0.0,0.3,DOME,GB,DAL,2019_5,6,0,No wind,0.3,0.0
+2019-10-06,2019,5,Houston Texans,53,32,Atlanta Falcons,NRG Stadium,False,72,0.0,0.55,DOME,ATL,HST,2019_5,6,0,No wind,0.66,0.0
+2019-10-06,2019,5,Kansas City Chiefs,13,19,Indianapolis Colts,Arrowhead Stadium,False,58,0mi SouthWest,0.72,Clear,IND,KC,2019_5,6,0,SouthWest,0.5,0.0
+2019-10-06,2019,5,Los Angeles Chargers,13,20,Denver Broncos,StubHub Center,False,80,5mi SouthWest,0.45,Clear,DEN,LAC,2019_5,6,5,SouthWest,0.0,0.0
+2019-10-06,2019,5,New Orleans Saints,31,24,Tampa Bay Buccaneers,Mercedes-Benz Superdome,False,72,0.0,0.62,DOME,TB,NO,2019_5,6,0,No wind,0.46,0.0
+2019-10-06,2019,5,New York Giants,10,28,Minnesota Vikings,MetLife Stadium,False,67,5mi South,0.72,Overcast,MIN,NYG,2019_5,6,5,South,0.1,0.0
+2019-10-06,2019,5,Oakland Raiders,24,21,Chicago Bears,Tottenham Hotspur Stadium,True,60,16mi NorthWest,0.59,Mostly Cloudy,CHI,LV,2019_5,6,16,NorthWest,0.7,0.0
+2019-10-06,2019,5,Philadelphia Eagles,31,6,New York Jets,Lincoln Financial Field,False,70,7mi South,0.68,Overcast,NYJ,PHI,2019_5,6,7,South,0.1,0.0
+2019-10-06,2019,5,Pittsburgh Steelers,23,26,Baltimore Ravens,Heinz Field,False,68,3mi West - SouthWest,0.74,Drizzle,BLT,PIT,2019_5,6,3,West - SouthWest,0.95,0.99
+2019-10-06,2019,5,Tennessee Titans,7,14,Buffalo Bills,Nissan Stadium,False,76,3mi South - SouthWest,0.74,Drizzle,BUF,TEN,2019_5,6,3,South - SouthWest,0.1,0.1
+2019-10-06,2019,5,Washington Redskins,7,33,New England Patriots,FedEx Field,False,70,6mi South - SouthWest,0.71,Overcast,NE,WAS,2019_5,6,6,South - SouthWest,0.1,0.0
+2019-10-07,2019,5,San Francisco 49ers,31,3,Cleveland Browns,Levi's Stadium,False,87,6mi NorthWest,0.19,Clear,CLV,SF,2019_5,0,6,NorthWest,0.1,0.0
+2019-10-10,2019,6,New England Patriots,35,14,New York Giants,Gillette Stadium,False,54,9mi North - NorthEast,0.61,Mostly Cloudy,NYG,NE,2019_6,3,9,North - NorthEast,0.59,0.0
+2019-10-13,2019,6,Arizona Cardinals,34,33,Atlanta Falcons,University of Phoenix Stadium,False,72,0.0,0.13,DOME,ATL,ARZ,2019_6,6,0,No wind,0.0,0.0
+2019-10-13,2019,6,Baltimore Ravens,23,17,Cincinnati Bengals,M&T Bank Stadium,False,61,3mi East - SouthEast,0.48,Mostly Cloudy,CIN,BLT,2019_6,6,3,East - SouthEast,0.77,0.0
+2019-10-13,2019,6,Cleveland Browns,28,32,Seattle Seahawks,FirstEnergy Stadium,False,61,7mi South - SouthWest,0.3,Clear,SEA,CLV,2019_6,6,7,South - SouthWest,0.0,0.0
+2019-10-13,2019,6,Denver Broncos,16,0,Tennessee Titans,Sports Authority Field at Mile High,False,71,4mi East - NorthEast,0.6,Clear,TEN,DEN,2019_6,6,4,East - NorthEast,0.0,0.0
+2019-10-13,2019,6,Jacksonville Jaguars,6,13,New Orleans Saints,TIAA Bank Field,False,80,10mi South,0.62,Mostly Cloudy,NO,JAX,2019_6,6,10,South,0.61,0.0
+2019-10-13,2019,6,Kansas City Chiefs,24,31,Houston Texans,Arrowhead Stadium,False,58,2mi North - NorthEast,0.3,Clear,HST,KC,2019_6,6,2,North - NorthEast,0.0,0.0
+2019-10-13,2019,6,Los Angeles Chargers,17,24,Pittsburgh Steelers,StubHub Center,False,67,7mi SouthWest,0.74,Clear,PIT,LAC,2019_6,6,7,SouthWest,0.0,0.0
+2019-10-13,2019,6,Los Angeles Rams,7,20,San Francisco 49ers,Los Angeles Memorial Coliseum,False,72,5mi SouthWest,0.49,Clear,SF,LAR,2019_6,6,5,SouthWest,0.0,0.0
+2019-10-13,2019,6,Miami Dolphins,16,17,Washington Redskins,Hard Rock Stadium,False,83,9mi East - SouthEast,0.7,Humid and Overcast,WAS,MIA,2019_6,6,9,East - SouthEast,0.1,0.0
+2019-10-13,2019,6,Minnesota Vikings,38,20,Philadelphia Eagles,U.S. Bank Stadium,False,72,0.0,0.76,DOME,PHI,MIN,2019_6,6,0,No wind,0.1,0.0
+2019-10-13,2019,6,New York Jets,24,22,Dallas Cowboys,MetLife Stadium,False,65,3mi South - SouthEast,0.44,Mostly Cloudy,DAL,NYJ,2019_6,6,3,South - SouthEast,0.51,0.0
+2019-10-13,2019,6,Tampa Bay Buccaneers,26,37,Carolina Panthers,Tottenham Hotspur Stadium,True,51,4mi South,0.9,Overcast,CAR,TB,2019_6,6,4,South,0.1,0.0
+2019-10-14,2019,6,Green Bay Packers,23,22,Detroit Lions,Lambeau Field,False,42,0mi South - SouthEast,0.62,Clear,DET,GB,2019_6,0,0,South - SouthEast,0.0,0.0
+2019-10-17,2019,7,Denver Broncos,6,30,Kansas City Chiefs,Sports Authority Field at Mile High,False,72,5mi North - NorthWest,0.9,Mostly Cloudy,KC,DEN,2019_7,3,5,North - NorthWest,0.6,0.0
+2019-10-20,2019,7,Atlanta Falcons,10,37,Los Angeles Rams,Mercedes-Benz Stadium,False,72,0.0,0.77,DOME,LAR,ATL,2019_7,6,0,No wind,0.93,0.0
+2019-10-20,2019,7,Buffalo Bills,31,21,Miami Dolphins,New Era Field,False,59,3mi West - SouthWest,0.54,Partly Cloudy,MIA,BUF,2019_7,6,3,West - SouthWest,0.23,0.0
+2019-10-20,2019,7,Chicago Bears,25,36,New Orleans Saints,Soldier Field,False,53,5mi East - NorthEast,0.83,Partly Cloudy,NO,CHI,2019_7,6,5,East - NorthEast,0.41,0.0
+2019-10-20,2019,7,Cincinnati Bengals,17,27,Jacksonville Jaguars,Paul Brown Stadium,False,72,1mi NorthWest,0.53,Partly Cloudy,JAX,CIN,2019_7,6,1,NorthWest,0.21,0.0
+2019-10-20,2019,7,Dallas Cowboys,37,10,Philadelphia Eagles,AT&T Stadium,False,72,0.0,0.6,DOME,PHI,DAL,2019_7,6,0,No wind,0.25,0.0
+2019-10-20,2019,7,Detroit Lions,30,42,Minnesota Vikings,Ford Field,False,72,0.0,0.6,DOME,MIN,DET,2019_7,6,0,No wind,0.82,0.0
+2019-10-20,2019,7,Green Bay Packers,42,24,Oakland Raiders,Lambeau Field,False,54,3mi West,0.74,Clear,LV,GB,2019_7,6,3,West,0.0,0.0
+2019-10-20,2019,7,Indianapolis Colts,30,23,Houston Texans,Lucas Oil Stadium,False,72,0.0,0.48,DOME,HST,IND,2019_7,6,0,No wind,0.16,0.0
+2019-10-20,2019,7,New York Giants,21,27,Arizona Cardinals,MetLife Stadium,False,57,2mi NorthEast,0.78,Overcast,ARZ,NYG,2019_7,6,2,NorthEast,0.1,0.0
+2019-10-20,2019,7,Seattle Seahawks,16,30,Baltimore Ravens,CenturyLink Field,False,49,6mi SouthEast,0.87,Drizzle,BLT,SEA,2019_7,6,6,SouthEast,0.1,0.1
+2019-10-20,2019,7,Tennessee Titans,23,20,Los Angeles Chargers,Nissan Stadium,False,75,2mi South - SouthEast,0.45,Clear,LAC,TEN,2019_7,6,2,South - SouthEast,0.0,0.0
+2019-10-20,2019,7,Washington Redskins,0,9,San Francisco 49ers,FedEx Field,False,55,8mi North - NorthEast,0.96,Light Rain,SF,WAS,2019_7,6,8,North - NorthEast,0.1,0.1
+2019-10-21,2019,7,New York Jets,0,33,New England Patriots,MetLife Stadium,False,56,1mi West - SouthWest,0.79,Clear,NE,NYJ,2019_7,0,1,West - SouthWest,0.3,0.0
+2019-10-24,2019,8,Minnesota Vikings,19,9,Washington Redskins,U.S. Bank Stadium,False,72,0.0,0.6,DOME,WAS,MIN,2019_8,3,0,No wind,0.0,0.0
+2019-10-27,2019,8,Atlanta Falcons,20,27,Seattle Seahawks,Mercedes-Benz Stadium,False,72,0.0,0.62,DOME,SEA,ATL,2019_8,6,0,No wind,0.4,0.0
+2019-10-27,2019,8,Buffalo Bills,13,31,Philadelphia Eagles,New Era Field,False,52,11mi West - SouthWest,0.94,Overcast,PHI,BUF,2019_8,6,11,West - SouthWest,0.1,0.0
+2019-10-27,2019,8,Chicago Bears,16,17,Los Angeles Chargers,Soldier Field,False,51,6mi West - SouthWest,0.55,Clear,LAC,CHI,2019_8,6,6,West - SouthWest,0.0,0.0
+2019-10-27,2019,8,Detroit Lions,31,26,New York Giants,Ford Field,False,72,0.0,0.82,DOME,NYG,DET,2019_8,6,0,No wind,0.1,0.0
+2019-10-27,2019,8,Houston Texans,27,24,Oakland Raiders,NRG Stadium,False,72,0.0,0.54,DOME,LV,HST,2019_8,6,0,No wind,0.9,0.0
+2019-10-27,2019,8,Indianapolis Colts,15,13,Denver Broncos,Lucas Oil Stadium,False,72,0.0,0.47,DOME,DEN,IND,2019_8,6,0,No wind,0.0,0.0
+2019-10-27,2019,8,Jacksonville Jaguars,29,15,New York Jets,TIAA Bank Field,False,81,7mi SouthWest,0.81,Humid and Mostly Cloudy,NYJ,JAX,2019_8,6,7,SouthWest,0.74,0.0
+2019-10-27,2019,8,Kansas City Chiefs,24,31,Green Bay Packers,Arrowhead Stadium,False,52,6mi North - NorthWest,0.62,Mostly Cloudy,GB,KC,2019_8,6,6,North - NorthWest,0.64,0.0
+2019-10-27,2019,8,Los Angeles Rams,24,10,Cincinnati Bengals,Wembley Stadium,True,48,3mi West - NorthWest,0.7,Partly Cloudy,CIN,LAR,2019_8,6,3,West - NorthWest,0.44,0.0
+2019-10-27,2019,8,New England Patriots,27,13,Cleveland Browns,Gillette Stadium,False,50,8mi East,0.95,Drizzle,CLV,NE,2019_8,6,8,East,0.1,0.1
+2019-10-27,2019,8,New Orleans Saints,31,9,Arizona Cardinals,Mercedes-Benz Superdome,False,72,0.0,0.65,DOME,ARZ,NO,2019_8,6,0,No wind,0.75,0.0
+2019-10-27,2019,8,San Francisco 49ers,51,13,Carolina Panthers,Levi's Stadium,False,63,12mi North,0.14,Clear,CAR,SF,2019_8,6,12,North,0.0,0.0
+2019-10-27,2019,8,Tennessee Titans,27,23,Tampa Bay Buccaneers,Nissan Stadium,False,59,1mi West,0.81,Overcast,TB,TEN,2019_8,6,1,West,0.1,0.0
+2019-10-28,2019,8,Pittsburgh Steelers,27,14,Miami Dolphins,Heinz Field,False,61,1mi East,0.48,Clear,MIA,PIT,2019_8,0,1,East,0.0,0.0
+2019-10-31,2019,9,Arizona Cardinals,25,28,San Francisco 49ers,University of Phoenix Stadium,False,72,0.0,0.4,DOME,SF,ARZ,2019_9,3,0,No wind,0.0,0.0
+2019-11-03,2019,9,Baltimore Ravens,37,20,New England Patriots,M&T Bank Stadium,False,45,0mi West - SouthWest,0.55,Clear,NE,BLT,2019_9,6,0,West - SouthWest,0.0,0.0
+2019-11-03,2019,9,Buffalo Bills,24,9,Washington Redskins,New Era Field,False,35,10mi West,0.82,Overcast,WAS,BUF,2019_9,6,10,West,0.92,0.0
+2019-11-03,2019,9,Carolina Panthers,30,20,Tennessee Titans,Bank of America Stadium,False,55,5mi NorthEast,0.37,Clear,TEN,CAR,2019_9,6,5,NorthEast,0.0,0.0
+2019-11-03,2019,9,Denver Broncos,24,19,Cleveland Browns,Sports Authority Field at Mile High,False,57,5mi East - NorthEast,0.25,Mostly Cloudy,CLV,DEN,2019_9,6,5,East - NorthEast,0.63,0.0
+2019-11-03,2019,9,Jacksonville Jaguars,3,26,Houston Texans,Wembley Stadium,True,47,7mi South - SouthWest,0.84,Possible Light Rain,HST,JAX,2019_9,6,7,South - SouthWest,0.56,0.46
+2019-11-03,2019,9,Kansas City Chiefs,26,23,Minnesota Vikings,Arrowhead Stadium,False,55,9mi SouthWest,0.37,Clear,MIN,KC,2019_9,6,9,SouthWest,0.0,0.0
+2019-11-03,2019,9,Los Angeles Chargers,26,11,Green Bay Packers,StubHub Center,False,73,4mi South,0.39,Clear,GB,LAC,2019_9,6,4,South,0.0,0.0
+2019-11-03,2019,9,Miami Dolphins,26,18,New York Jets,Hard Rock Stadium,False,83,5mi North,0.72,Humid and Mostly Cloudy,NYJ,MIA,2019_9,6,5,North,0.84,0.0
+2019-11-03,2019,9,Oakland Raiders,31,24,Detroit Lions,Oakland Coliseum,False,70,4mi North - NorthWest,0.3,Clear,DET,LV,2019_9,6,4,North - NorthWest,0.0,0.0
+2019-11-03,2019,9,Philadelphia Eagles,22,14,Chicago Bears,Lincoln Financial Field,False,51,7mi West - NorthWest,0.4,Clear,CHI,PHI,2019_9,6,7,West - NorthWest,0.14,0.0
+2019-11-03,2019,9,Pittsburgh Steelers,26,24,Indianapolis Colts,Heinz Field,False,46,5mi West,0.47,Partly Cloudy,IND,PIT,2019_9,6,5,West,0.32,0.0
+2019-11-03,2019,9,Seattle Seahawks,40,34,Tampa Bay Buccaneers,CenturyLink Field,False,51,4mi North - NorthWest,0.75,Clear,TB,SEA,2019_9,6,4,North - NorthWest,0.11,0.0
+2019-11-04,2019,9,New York Giants,18,37,Dallas Cowboys,MetLife Stadium,False,51,6mi South,0.56,Clear,DAL,NYG,2019_9,0,6,South,0.8,0.0
+2019-11-07,2019,10,Oakland Raiders,26,24,Los Angeles Chargers,Oakland Coliseum,False,57,7mi West - NorthWest,0.7,Clear,LAC,LV,2019_10,3,7,West - NorthWest,0.31,0.0
+2019-11-10,2019,10,Chicago Bears,20,13,Detroit Lions,Soldier Field,False,40,10mi North,0.77,Overcast,DET,CHI,2019_10,6,10,North,0.1,0.0
+2019-11-10,2019,10,Cincinnati Bengals,13,49,Baltimore Ravens,Paul Brown Stadium,False,56,5mi South - SouthWest,0.46,Clear,BLT,CIN,2019_10,6,5,South - SouthWest,0.0,0.0
+2019-11-10,2019,10,Cleveland Browns,19,16,Buffalo Bills,FirstEnergy Stadium,False,48,5mi West,0.62,Mostly Cloudy,BUF,CLV,2019_10,6,5,West,0.84,0.0
+2019-11-10,2019,10,Dallas Cowboys,24,28,Minnesota Vikings,AT&T Stadium,False,72,0.0,0.47,DOME,MIN,DAL,2019_10,6,0,No wind,0.13,0.0
+2019-11-10,2019,10,Green Bay Packers,24,16,Carolina Panthers,Lambeau Field,False,33,4mi North - NorthEast,0.61,Overcast,CAR,GB,2019_10,6,4,North - NorthEast,0.1,0.0
+2019-11-10,2019,10,Indianapolis Colts,12,16,Miami Dolphins,Lucas Oil Stadium,False,72,0.0,0.55,DOME,MIA,IND,2019_10,6,0,No wind,0.35,0.0
+2019-11-10,2019,10,New Orleans Saints,9,26,Atlanta Falcons,Mercedes-Benz Superdome,False,72,0.0,0.61,DOME,ATL,NO,2019_10,6,0,No wind,0.9,0.0
+2019-11-10,2019,10,New York Jets,34,27,New York Giants,MetLife Stadium,False,47,5mi SouthWest,0.51,Overcast,NYG,NYJ,2019_10,6,5,SouthWest,0.93,0.0
+2019-11-10,2019,10,Pittsburgh Steelers,17,12,Los Angeles Rams,Heinz Field,False,55,7mi West - SouthWest,0.49,Clear,LAR,PIT,2019_10,6,7,West - SouthWest,0.1,0.0
+2019-11-10,2019,10,Tampa Bay Buccaneers,30,27,Arizona Cardinals,Raymond James Stadium,False,75,5mi East - NorthEast,0.63,Clear,ARZ,TB,2019_10,6,5,East - NorthEast,0.0,0.0
+2019-11-10,2019,10,Tennessee Titans,35,32,Kansas City Chiefs,Nissan Stadium,False,62,9mi SouthWest,0.37,Clear,KC,TEN,2019_10,6,9,SouthWest,0.0,0.0
+2019-11-11,2019,10,San Francisco 49ers,24,27,Seattle Seahawks,Levi's Stadium,False,75,3mi North - NorthWest,0.31,Mostly Cloudy,SEA,SF,2019_10,0,3,North - NorthWest,0.6,0.0
+2019-11-14,2019,11,Cleveland Browns,21,7,Pittsburgh Steelers,FirstEnergy Stadium,False,37,6mi West - SouthWest,0.63,Drizzle,PIT,CLV,2019_11,3,6,West - SouthWest,0.1,0.76
+2019-11-17,2019,11,Baltimore Ravens,41,7,Houston Texans,M&T Bank Stadium,False,42,8mi East - NorthEast,0.59,Overcast,HST,BLT,2019_11,6,8,East - NorthEast,0.1,0.0
+2019-11-17,2019,11,Carolina Panthers,3,29,Atlanta Falcons,Bank of America Stadium,False,52,10mi North - NorthEast,0.53,Partly Cloudy,ATL,CAR,2019_11,6,10,North - NorthEast,0.56,0.0
+2019-11-17,2019,11,Detroit Lions,27,35,Dallas Cowboys,Ford Field,False,72,0.0,0.6,DOME,DAL,DET,2019_11,6,0,No wind,0.17,0.0
+2019-11-17,2019,11,Indianapolis Colts,33,13,Jacksonville Jaguars,Lucas Oil Stadium,False,72,0.0,0.64,DOME,JAX,IND,2019_11,6,0,No wind,0.0,0.0
+2019-11-17,2019,11,Los Angeles Rams,17,7,Chicago Bears,Los Angeles Memorial Coliseum,False,85,4mi West,0.15,Clear,CHI,LAR,2019_11,6,4,West,0.0,0.0
+2019-11-17,2019,11,Miami Dolphins,20,37,Buffalo Bills,Hard Rock Stadium,False,60,7mi NorthWest,0.8,Overcast,BUF,MIA,2019_11,6,7,NorthWest,0.1,0.0
+2019-11-17,2019,11,Minnesota Vikings,27,23,Denver Broncos,U.S. Bank Stadium,False,72,0.0,0.83,DOME,DEN,MIN,2019_11,6,0,No wind,0.1,0.0
+2019-11-17,2019,11,Oakland Raiders,17,10,Cincinnati Bengals,Oakland Coliseum,False,68,5mi North,0.48,Clear,CIN,LV,2019_11,6,5,North,0.7,0.0
+2019-11-17,2019,11,Philadelphia Eagles,10,17,New England Patriots,Lincoln Financial Field,False,42,8mi NorthEast,0.65,Overcast,NE,PHI,2019_11,6,8,NorthEast,0.1,0.0
+2019-11-17,2019,11,San Francisco 49ers,36,26,Arizona Cardinals,Levi's Stadium,False,68,4mi NorthWest,0.51,Clear,ARZ,SF,2019_11,6,4,NorthWest,0.1,0.0
+2019-11-17,2019,11,Tampa Bay Buccaneers,17,34,New Orleans Saints,Raymond James Stadium,False,53,2mi North,0.84,Overcast,NO,TB,2019_11,6,2,North,0.1,0.0
+2019-11-17,2019,11,Washington Redskins,17,34,New York Jets,FedEx Field,False,41,7mi NorthEast,0.56,Overcast,NYJ,WAS,2019_11,6,7,NorthEast,0.1,0.0
+2019-11-18,2019,11,Los Angeles Chargers,17,24,Kansas City Chiefs,Estadio Azteca,True,63,7mi North - NorthWest,0.62,Mostly Cloudy,KC,LAC,2019_11,0,7,North - NorthWest,0.8,0.19
+2019-11-21,2019,12,Houston Texans,20,17,Indianapolis Colts,NRG Stadium,False,72,0.0,0.8,DOME,IND,HST,2019_12,3,0,No wind,0.74,0.0
+2019-11-24,2019,12,Atlanta Falcons,22,35,Tampa Bay Buccaneers,Mercedes-Benz Stadium,False,72,0.0,0.59,DOME,TB,ATL,2019_12,6,0,No wind,0.14,0.0
+2019-11-24,2019,12,Buffalo Bills,20,3,Denver Broncos,New Era Field,False,37,7mi West - SouthWest,0.69,Clear,DEN,BUF,2019_12,6,7,West - SouthWest,0.13,0.0
+2019-11-24,2019,12,Chicago Bears,19,14,New York Giants,Soldier Field,False,44,8mi SouthWest,0.66,Clear,NYG,CHI,2019_12,6,8,SouthWest,0.0,0.0
+2019-11-24,2019,12,Cincinnati Bengals,10,16,Pittsburgh Steelers,Paul Brown Stadium,False,43,9mi SouthWest,0.73,Mostly Cloudy,PIT,CIN,2019_12,6,9,SouthWest,0.79,0.0
+2019-11-24,2019,12,Cleveland Browns,41,24,Miami Dolphins,FirstEnergy Stadium,False,37,12mi West - SouthWest,0.74,Overcast,MIA,CLV,2019_12,6,12,West - SouthWest,0.1,0.0
+2019-11-24,2019,12,New England Patriots,13,9,Dallas Cowboys,Gillette Stadium,False,40,11mi North - NorthWest,0.92,Overcast,DAL,NE,2019_12,6,11,North - NorthWest,0.1,0.0
+2019-11-24,2019,12,New Orleans Saints,34,31,Carolina Panthers,Mercedes-Benz Superdome,False,72,0.0,0.56,DOME,CAR,NO,2019_12,6,0,No wind,0.0,0.0
+2019-11-24,2019,12,New York Jets,34,3,Oakland Raiders,MetLife Stadium,False,41,9mi NorthWest,0.91,Drizzle,LV,NYJ,2019_12,6,9,NorthWest,0.1,0.1
+2019-11-24,2019,12,Philadelphia Eagles,9,17,Seattle Seahawks,Lincoln Financial Field,False,38,11mi West - NorthWest,0.9,Light Sleet,SEA,PHI,2019_12,6,11,West - NorthWest,0.1,0.1
+2019-11-24,2019,12,San Francisco 49ers,37,8,Green Bay Packers,Levi's Stadium,False,66,2mi West - NorthWest,0.36,Clear,GB,SF,2019_12,6,2,West - NorthWest,0.22,0.0
+2019-11-24,2019,12,Tennessee Titans,42,20,Jacksonville Jaguars,Nissan Stadium,False,53,7mi West - SouthWest,0.5,Clear,JAX,TEN,2019_12,6,7,West - SouthWest,0.0,0.0
+2019-11-24,2019,12,Washington Redskins,19,16,Detroit Lions,FedEx Field,False,46,10mi West - NorthWest,0.59,Mostly Cloudy,DET,WAS,2019_12,6,10,West - NorthWest,0.83,0.0
+2019-11-25,2019,12,Los Angeles Rams,6,45,Baltimore Ravens,Los Angeles Memorial Coliseum,False,64,3mi South - SouthWest,0.65,Clear,BLT,LAR,2019_12,0,3,South - SouthWest,0.1,0.0
+2019-11-28,2019,13,Atlanta Falcons,18,26,New Orleans Saints,Mercedes-Benz Stadium,False,72,0.0,0.41,DOME,NO,ATL,2019_13,3,0,No wind,0.3,0.0
+2019-11-28,2019,13,Dallas Cowboys,15,26,Buffalo Bills,AT&T Stadium,False,72,0.0,0.84,DOME,BUF,DAL,2019_13,3,0,No wind,0.1,0.0
+2019-11-28,2019,13,Detroit Lions,20,24,Chicago Bears,Ford Field,False,72,0.0,0.71,DOME,CHI,DET,2019_13,3,0,No wind,0.1,0.0
+2019-12-01,2019,13,Arizona Cardinals,7,34,Los Angeles Rams,University of Phoenix Stadium,False,72,0.0,0.22,DOME,LAR,ARZ,2019_13,6,0,No wind,0.17,0.0
+2019-12-01,2019,13,Baltimore Ravens,20,17,San Francisco 49ers,M&T Bank Stadium,False,38,9mi East,0.97,Drizzle,SF,BLT,2019_13,6,9,East,0.1,0.1
+2019-12-01,2019,13,Carolina Panthers,21,29,Washington Redskins,Bank of America Stadium,False,60,7mi SouthWest,0.89,Overcast,WAS,CAR,2019_13,6,7,SouthWest,0.1,0.0
+2019-12-01,2019,13,Cincinnati Bengals,22,6,New York Jets,Paul Brown Stadium,False,48,14mi West - SouthWest,0.56,Overcast,NYJ,CIN,2019_13,6,14,West - SouthWest,0.1,0.0
+2019-12-01,2019,13,Denver Broncos,23,20,Los Angeles Chargers,Sports Authority Field at Mile High,False,35,4mi North - NorthEast,0.43,Clear,LAC,DEN,2019_13,6,4,North - NorthEast,0.26,0.0
+2019-12-01,2019,13,Houston Texans,28,22,New England Patriots,NRG Stadium,False,72,0.0,0.28,DOME,NE,HST,2019_13,6,0,No wind,0.0,0.0
+2019-12-01,2019,13,Indianapolis Colts,17,31,Tennessee Titans,Lucas Oil Stadium,False,72,0.0,0.75,DOME,TEN,IND,2019_13,6,0,No wind,0.1,0.1
+2019-12-01,2019,13,Jacksonville Jaguars,11,28,Tampa Bay Buccaneers,TIAA Bank Field,False,78,14mi South - SouthWest,0.72,Mostly Cloudy,TB,JAX,2019_13,6,14,South - SouthWest,0.75,0.0
+2019-12-01,2019,13,Kansas City Chiefs,40,9,Oakland Raiders,Arrowhead Stadium,False,35,12mi NorthWest,0.6,Overcast,LV,KC,2019_13,6,12,NorthWest,0.1,0.0
+2019-12-01,2019,13,Miami Dolphins,37,31,Philadelphia Eagles,Hard Rock Stadium,False,80,10mi South,0.63,Partly Cloudy,PHI,MIA,2019_13,6,10,South,0.38,0.0
+2019-12-01,2019,13,New York Giants,13,31,Green Bay Packers,MetLife Stadium,False,30,7mi NorthEast,0.77,Drizzle,GB,NYG,2019_13,6,7,NorthEast,0.1,0.1
+2019-12-01,2019,13,Pittsburgh Steelers,20,13,Cleveland Browns,Heinz Field,False,45,3mi East - SouthEast,0.93,Overcast,CLV,PIT,2019_13,6,3,East - SouthEast,0.1,0.0
+2019-12-02,2019,13,Seattle Seahawks,37,30,Minnesota Vikings,CenturyLink Field,False,47,1mi South,0.69,Mostly Cloudy,MIN,SEA,2019_13,0,1,South,0.62,0.0
+2019-12-05,2019,14,Chicago Bears,31,24,Dallas Cowboys,Soldier Field,False,40,8mi South,0.8,Drizzle,DAL,CHI,2019_14,3,8,South,0.5,0.1
+2019-12-08,2019,14,Arizona Cardinals,17,23,Pittsburgh Steelers,University of Phoenix Stadium,False,72,0.0,0.82,DOME,PIT,ARZ,2019_14,6,0,No wind,0.63,0.1
+2019-12-08,2019,14,Atlanta Falcons,40,20,Carolina Panthers,Mercedes-Benz Stadium,False,72,0.0,0.61,DOME,CAR,ATL,2019_14,6,0,No wind,0.44,0.0
+2019-12-08,2019,14,Buffalo Bills,17,24,Baltimore Ravens,New Era Field,False,34,18mi South,0.71,Windy and Partly Cloudy,BLT,BUF,2019_14,6,18,South,0.46,0.0
+2019-12-08,2019,14,Cleveland Browns,27,19,Cincinnati Bengals,FirstEnergy Stadium,False,43,14mi South - SouthWest,0.68,Partly Cloudy,CIN,CLV,2019_14,6,14,South - SouthWest,0.55,0.0
+2019-12-08,2019,14,Green Bay Packers,20,15,Washington Redskins,Lambeau Field,False,38,10mi SouthWest,0.86,Partly Cloudy,WAS,GB,2019_14,6,10,SouthWest,0.42,0.0
+2019-12-08,2019,14,Houston Texans,24,38,Denver Broncos,NRG Stadium,False,72,0.0,0.77,DOME,DEN,HST,2019_14,6,0,No wind,0.28,0.0
+2019-12-08,2019,14,Jacksonville Jaguars,10,45,Los Angeles Chargers,TIAA Bank Field,False,63,4mi East,0.87,Mostly Cloudy,LAC,JAX,2019_14,6,4,East,0.84,0.0
+2019-12-08,2019,14,Los Angeles Rams,28,12,Seattle Seahawks,Los Angeles Memorial Coliseum,False,64,5mi West - SouthWest,0.68,Partly Cloudy,SEA,LAR,2019_14,6,5,West - SouthWest,0.42,0.0
+2019-12-08,2019,14,Minnesota Vikings,20,7,Detroit Lions,U.S. Bank Stadium,False,72,0.0,0.98,DOME,DET,MIN,2019_14,6,0,No wind,0.67,0.0
+2019-12-08,2019,14,New England Patriots,16,23,Kansas City Chiefs,Gillette Stadium,False,32,6mi South - SouthWest,0.72,Clear,KC,NE,2019_14,6,6,South - SouthWest,0.3,0.0
+2019-12-08,2019,14,New Orleans Saints,46,48,San Francisco 49ers,Mercedes-Benz Superdome,False,72,0.0,0.77,DOME,SF,NO,2019_14,6,0,No wind,0.0,0.0
+2019-12-08,2019,14,New York Jets,22,21,Miami Dolphins,MetLife Stadium,False,37,6mi South,0.57,Clear,MIA,NYJ,2019_14,6,6,South,0.27,0.0
+2019-12-08,2019,14,Oakland Raiders,21,42,Tennessee Titans,Oakland Coliseum,False,58,3mi West,0.84,Possible Drizzle,TEN,LV,2019_14,6,3,West,0.52,0.39
+2019-12-08,2019,14,Tampa Bay Buccaneers,38,35,Indianapolis Colts,Raymond James Stadium,False,76,8mi East - SouthEast,0.67,Clear,IND,TB,2019_14,6,8,East - SouthEast,0.2,0.0
+2019-12-09,2019,14,Philadelphia Eagles,23,17,New York Giants,Lincoln Financial Field,False,50,8mi South - SouthWest,0.99,Drizzle,NYG,PHI,2019_14,0,8,South - SouthWest,0.1,0.1
+2019-12-12,2019,15,Baltimore Ravens,42,21,New York Jets,M&T Bank Stadium,False,33,3mi SouthEast,0.56,Clear,NYJ,BLT,2019_15,3,3,SouthEast,0.2,0.0
+2019-12-15,2019,15,Arizona Cardinals,38,24,Cleveland Browns,University of Phoenix Stadium,False,72,0.0,0.23,DOME,CLV,ARZ,2019_15,6,0,No wind,0.13,0.0
+2019-12-15,2019,15,Carolina Panthers,24,30,Seattle Seahawks,Bank of America Stadium,False,53,4mi SouthWest,0.53,Clear,SEA,CAR,2019_15,6,4,SouthWest,0.6,0.0
+2019-12-15,2019,15,Cincinnati Bengals,13,34,New England Patriots,Paul Brown Stadium,False,34,3mi South - SouthWest,0.62,Clear,NE,CIN,2019_15,6,3,South - SouthWest,0.3,0.0
+2019-12-15,2019,15,Dallas Cowboys,44,21,Los Angeles Rams,AT&T Stadium,False,72,0.0,0.38,DOME,LAR,DAL,2019_15,6,0,No wind,0.2,0.0
+2019-12-15,2019,15,Detroit Lions,17,38,Tampa Bay Buccaneers,Ford Field,False,72,0.0,0.68,DOME,TB,DET,2019_15,6,0,No wind,0.75,0.0
+2019-12-15,2019,15,Green Bay Packers,21,13,Chicago Bears,Lambeau Field,False,13,7mi SouthWest,0.77,Clear,CHI,GB,2019_15,6,7,SouthWest,0.12,0.0
+2019-12-15,2019,15,Kansas City Chiefs,23,3,Denver Broncos,Arrowhead Stadium,False,25,8mi East - NorthEast,0.89,Light Snow,DEN,KC,2019_15,6,8,East - NorthEast,0.1,0.1
+2019-12-15,2019,15,Los Angeles Chargers,10,39,Minnesota Vikings,StubHub Center,False,63,12mi NorthWest,0.28,Clear,MIN,LAC,2019_15,6,12,NorthWest,0.0,0.0
+2019-12-15,2019,15,New York Giants,36,20,Miami Dolphins,MetLife Stadium,False,46,15mi West - NorthWest,0.55,Partly Cloudy,MIA,NYG,2019_15,6,15,West - NorthWest,0.4,0.0
+2019-12-15,2019,15,Oakland Raiders,16,20,Jacksonville Jaguars,Oakland Coliseum,False,55,6mi West - NorthWest,0.56,Clear,JAX,LV,2019_15,6,6,West - NorthWest,0.9,0.0
+2019-12-15,2019,15,Pittsburgh Steelers,10,17,Buffalo Bills,Heinz Field,False,31,0mi North,0.68,Mostly Cloudy,BUF,PIT,2019_15,6,0,North,0.7,0.0
+2019-12-15,2019,15,San Francisco 49ers,22,29,Atlanta Falcons,Levi's Stadium,False,55,6mi NorthWest,0.57,Clear,ATL,SF,2019_15,6,6,NorthWest,0.23,0.0
+2019-12-15,2019,15,Tennessee Titans,21,24,Houston Texans,Nissan Stadium,False,42,4mi East,0.75,Overcast,HST,TEN,2019_15,6,4,East,0.95,0.0
+2019-12-15,2019,15,Washington Redskins,27,37,Philadelphia Eagles,FedEx Field,False,51,11mi North - NorthWest,0.49,Clear,PHI,WAS,2019_15,6,11,North - NorthWest,0.9,0.0
+2019-12-16,2019,15,New Orleans Saints,34,7,Indianapolis Colts,Mercedes-Benz Superdome,False,72,0.0,0.9,DOME,IND,NO,2019_15,0,0,No wind,0.92,0.0
+2019-12-21,2019,16,New England Patriots,24,17,Buffalo Bills,Gillette Stadium,False,32,3mi South,0.71,Mostly Cloudy,BUF,NE,2019_16,5,3,South,0.84,0.0
+2019-12-21,2019,16,San Francisco 49ers,34,31,Los Angeles Rams,Levi's Stadium,False,58,5mi South,0.63,Overcast,LAR,SF,2019_16,5,5,South,0.1,0.0
+2019-12-21,2019,16,Tampa Bay Buccaneers,20,23,Houston Texans,Raymond James Stadium,False,73,12mi East,0.69,Overcast,HST,TB,2019_16,5,12,East,0.91,0.0
+2019-12-22,2019,16,Atlanta Falcons,24,12,Jacksonville Jaguars,Mercedes-Benz Stadium,False,72,0.0,0.92,DOME,JAX,ATL,2019_16,6,0,No wind,0.1,0.1
+2019-12-22,2019,16,Chicago Bears,3,26,Kansas City Chiefs,Soldier Field,False,42,10mi South - SouthWest,0.76,Clear,KC,CHI,2019_16,6,10,South - SouthWest,0.0,0.0
+2019-12-22,2019,16,Cleveland Browns,15,31,Baltimore Ravens,FirstEnergy Stadium,False,44,7mi SouthWest,0.56,Clear,BLT,CLV,2019_16,6,7,SouthWest,0.6,0.0
+2019-12-22,2019,16,Denver Broncos,27,17,Detroit Lions,Sports Authority Field at Mile High,False,62,3mi South - SouthEast,0.2,Mostly Cloudy,DET,DEN,2019_16,6,3,South - SouthEast,0.65,0.0
+2019-12-22,2019,16,Indianapolis Colts,38,6,Carolina Panthers,Lucas Oil Stadium,False,72,0.0,0.79,DOME,CAR,IND,2019_16,6,0,No wind,0.5,0.0
+2019-12-22,2019,16,Los Angeles Chargers,17,24,Oakland Raiders,StubHub Center,False,65,9mi SouthEast,0.55,Partly Cloudy,LV,LAC,2019_16,6,9,SouthEast,0.51,0.0
+2019-12-22,2019,16,Miami Dolphins,38,35,Cincinnati Bengals,Hard Rock Stadium,False,76,14mi East - SouthEast,0.68,Mostly Cloudy,CIN,MIA,2019_16,6,14,East - SouthEast,0.79,0.3
+2019-12-22,2019,16,New York Jets,16,10,Pittsburgh Steelers,MetLife Stadium,False,37,5mi West - SouthWest,0.67,Clear,PIT,NYJ,2019_16,6,5,West - SouthWest,0.2,0.0
+2019-12-22,2019,16,Philadelphia Eagles,17,9,Dallas Cowboys,Lincoln Financial Field,False,44,4mi West - SouthWest,0.57,Clear,DAL,PHI,2019_16,6,4,West - SouthWest,0.31,0.0
+2019-12-22,2019,16,Seattle Seahawks,13,27,Arizona Cardinals,CenturyLink Field,False,45,7mi North,0.78,Mostly Cloudy,ARZ,SEA,2019_16,6,7,North,0.75,0.0
+2019-12-22,2019,16,Tennessee Titans,28,38,New Orleans Saints,Nissan Stadium,False,49,2mi NorthEast,0.63,Drizzle,NO,TEN,2019_16,6,2,NorthEast,0.1,0.95
+2019-12-22,2019,16,Washington Redskins,35,41,New York Giants,FedEx Field,False,41,3mi SouthWest,0.61,Partly Cloudy,NYG,WAS,2019_16,6,3,SouthWest,0.53,0.0
+2019-12-23,2019,16,Minnesota Vikings,10,23,Green Bay Packers,U.S. Bank Stadium,False,72,0.0,0.79,DOME,GB,MIN,2019_16,0,0,No wind,0.94,0.0
+2019-12-29,2019,17,Baltimore Ravens,28,10,Pittsburgh Steelers,M&T Bank Stadium,False,46,7mi East - SouthEast,0.93,Overcast,PIT,BLT,2019_17,6,7,East - SouthEast,0.1,0.0
+2019-12-29,2019,17,Buffalo Bills,6,13,New York Jets,New Era Field,False,39,8mi SouthEast,0.87,Drizzle,NYJ,BUF,2019_17,6,8,SouthEast,0.1,0.1
+2019-12-29,2019,17,Carolina Panthers,10,42,New Orleans Saints,Bank of America Stadium,False,65,7mi South,0.94,Overcast,NO,CAR,2019_17,6,7,South,0.99,0.0
+2019-12-29,2019,17,Cincinnati Bengals,33,23,Cleveland Browns,Paul Brown Stadium,False,60,8mi South - SouthWest,0.94,Light Rain,CLV,CIN,2019_17,6,8,South - SouthWest,0.1,0.1
+2019-12-29,2019,17,Dallas Cowboys,47,16,Washington Redskins,AT&T Stadium,False,72,0.0,0.54,DOME,WAS,DAL,2019_17,6,0,No wind,0.21,0.0
+2019-12-29,2019,17,Denver Broncos,16,15,Oakland Raiders,Sports Authority Field at Mile High,False,32,2mi East - NorthEast,0.35,Clear,LV,DEN,2019_17,6,2,East - NorthEast,0.7,0.0
+2019-12-29,2019,17,Detroit Lions,20,23,Green Bay Packers,Ford Field,False,72,0.0,0.93,DOME,GB,DET,2019_17,6,0,No wind,0.1,0.0
+2019-12-29,2019,17,Houston Texans,14,35,Tennessee Titans,NRG Stadium,False,72,0.0,0.46,DOME,TEN,HST,2019_17,6,0,No wind,0.49,0.0
+2019-12-29,2019,17,Jacksonville Jaguars,38,20,Indianapolis Colts,TIAA Bank Field,False,73,4mi South - SouthEast,0.92,Mostly Cloudy,IND,JAX,2019_17,6,4,South - SouthEast,0.84,0.0
+2019-12-29,2019,17,Kansas City Chiefs,31,21,Los Angeles Chargers,Arrowhead Stadium,False,39,12mi West - SouthWest,0.84,Overcast,LAC,KC,2019_17,6,12,West - SouthWest,0.99,0.0
+2019-12-29,2019,17,Los Angeles Rams,31,24,Arizona Cardinals,Los Angeles Memorial Coliseum,False,61,2mi South - SouthEast,0.46,Clear,ARZ,LAR,2019_17,6,2,South - SouthEast,0.8,0.0
+2019-12-29,2019,17,Minnesota Vikings,19,21,Chicago Bears,U.S. Bank Stadium,False,72,0.0,0.94,DOME,CHI,MIN,2019_17,6,0,No wind,0.1,0.0
+2019-12-29,2019,17,New England Patriots,24,27,Miami Dolphins,Gillette Stadium,False,40,2mi North,0.51,Mostly Cloudy,MIA,NE,2019_17,6,2,North,0.64,0.0
+2019-12-29,2019,17,New York Giants,17,34,Philadelphia Eagles,MetLife Stadium,False,40,4mi East,0.73,Drizzle,PHI,NYG,2019_17,6,4,East,0.1,0.1
+2019-12-29,2019,17,Seattle Seahawks,21,26,San Francisco 49ers,CenturyLink Field,False,47,1mi South,0.82,Partly Cloudy,SF,SEA,2019_17,6,1,South,0.4,0.0
+2019-12-29,2019,17,Tampa Bay Buccaneers,22,28,Atlanta Falcons,Raymond James Stadium,False,78,10mi South,0.83,Humid and Mostly Cloudy,ATL,TB,2019_17,6,10,South,0.7,0.0
+2020-09-10,2020,1,Kansas City Chiefs,34,20,Houston Texans,Arrowhead Stadium,False,58,6mi North - NorthEast,0.82,Overcast,HST,KC,2020_1,3,6,North - NorthEast,0.1,0.0
+2020-09-13,2020,1,Atlanta Falcons,25,38,Seattle Seahawks,Mercedes-Benz Stadium,False,72,0.0,0.71,DOME,SEA,ATL,2020_1,6,0,No wind,0.52,0.0
+2020-09-13,2020,1,Baltimore Ravens,38,6,Cleveland Browns,M&T Bank Stadium,False,75,5mi South - SouthEast,0.79,Partly Cloudy,CLV,BLT,2020_1,6,5,South - SouthEast,0.59,0.0
+2020-09-13,2020,1,Buffalo Bills,27,17,New York Jets,New Era Field,False,65,12mi South - SouthWest,0.1,Overcast,NYJ,BUF,2020_1,6,12,South - SouthWest,0.91,0.0
+2020-09-13,2020,1,Carolina Panthers,30,34,Las Vegas Raiders,Bank of America Stadium,False,79,3mi NorthEast,0.66,Clear,LV,CAR,2020_1,6,3,NorthEast,0.17,0.0
+2020-09-13,2020,1,Cincinnati Bengals,13,16,Los Angeles Chargers,Paul Brown Stadium,False,83,4mi West - NorthWest,0.55,Mostly Cloudy,LAC,CIN,2020_1,6,4,West - NorthWest,0.74,0.0
+2020-09-13,2020,1,Detroit Lions,23,27,Chicago Bears,Ford Field,False,72,0.0,0.65,DOME,CHI,DET,2020_1,6,0,No wind,0.12,0.0
+2020-09-13,2020,1,Jacksonville Jaguars,27,20,Indianapolis Colts,TIAA Bank Field,False,86,8mi East - SouthEast,0.72,Humid and Mostly Cloudy,IND,JAX,2020_1,6,8,East - SouthEast,0.64,0.0
+2020-09-13,2020,1,Los Angeles Rams,20,17,Dallas Cowboys,SoFi Stadium,False,74,7mi West,0.57,Clear,DAL,LAR,2020_1,6,7,West,0.11,0.0
+2020-09-13,2020,1,Minnesota Vikings,34,43,Green Bay Packers,U.S. Bank Stadium,False,72,0.0,0.74,DOME,GB,MIN,2020_1,6,0,No wind,0.3,0.0
+2020-09-13,2020,1,New England Patriots,21,11,Miami Dolphins,Gillette Stadium,False,73,6mi South,0.57,Clear,MIA,NE,2020_1,6,6,South,0.28,0.0
+2020-09-13,2020,1,New Orleans Saints,34,23,Tampa Bay Buccaneers,Mercedes-Benz Superdome,False,72,0.0,0.7,DOME,TB,NO,2020_1,6,0,No wind,0.44,0.0
+2020-09-13,2020,1,San Francisco 49ers,20,24,Arizona Cardinals,Levi's Stadium,False,71,6mi NorthWest,0.61,Clear,ARZ,SF,2020_1,6,6,NorthWest,0.17,0.0
+2020-09-13,2020,1,Washington Football Team,27,17,Philadelphia Eagles,FedEx Field,False,76,4mi South,0.75,Partly Cloudy,PHI,WAS,2020_1,6,4,South,0.52,0.0
+2020-09-14,2020,1,Denver Broncos,14,16,Tennessee Titans,Sports Authority Field at Mile High,False,78,7mi NorthEast,0.17,Foggy,TEN,DEN,2020_1,0,7,NorthEast,0.4,0.0
+2020-09-14,2020,1,New York Giants,16,26,Pittsburgh Steelers,MetLife Stadium,False,70,10mi North - NorthWest,0.44,Clear,PIT,NYG,2020_1,0,10,North - NorthWest,0.5,0.0
+2020-09-17,2020,2,Cleveland Browns,35,30,Cincinnati Bengals,FirstEnergy Stadium,False,64,6mi North - NorthEast,0.55,Clear,CIN,CLV,2020_2,3,6,North - NorthEast,0.8,0.0
+2020-09-20,2020,2,Arizona Cardinals,30,15,Washington Football Team,University of Phoenix Stadium,False,72,0.0,0.13,DOME,WAS,ARZ,2020_2,6,0,No wind,0.9,0.0
+2020-09-20,2020,2,Chicago Bears,17,13,New York Giants,Soldier Field,False,65,9mi SouthEast,0.45,Clear,NYG,CHI,2020_2,6,9,SouthEast,0.0,0.0
+2020-09-20,2020,2,Dallas Cowboys,40,39,Atlanta Falcons,AT&T Stadium,False,72,0.0,0.59,DOME,ATL,DAL,2020_2,6,0,No wind,0.0,0.0
+2020-09-20,2020,2,Green Bay Packers,42,21,Detroit Lions,Lambeau Field,False,67,11mi South,0.56,Clear,DET,GB,2020_2,6,11,South,0.4,0.0
+2020-09-20,2020,2,Houston Texans,16,33,Baltimore Ravens,NRG Stadium,False,72,0.0,0.83,DOME,BLT,HST,2020_2,6,0,No wind,0.95,0.1
+2020-09-20,2020,2,Indianapolis Colts,28,11,Minnesota Vikings,Lucas Oil Stadium,False,72,0.0,0.35,DOME,MIN,IND,2020_2,6,0,No wind,0.0,0.0
+2020-09-20,2020,2,Los Angeles Chargers,20,23,Kansas City Chiefs,SoFi Stadium,False,76,6mi West - SouthWest,0.56,Clear,KC,LAC,2020_2,6,6,West - SouthWest,0.8,0.0
+2020-09-20,2020,2,Miami Dolphins,28,31,Buffalo Bills,Hard Rock Stadium,False,89,7mi East - SouthEast,0.75,Humid and Partly Cloudy,BUF,MIA,2020_2,6,7,East - SouthEast,0.43,0.0
+2020-09-20,2020,2,New York Jets,13,31,San Francisco 49ers,MetLife Stadium,False,61,9mi NorthEast,0.28,Clear,SF,NYJ,2020_2,6,9,NorthEast,0.11,0.0
+2020-09-20,2020,2,Philadelphia Eagles,19,37,Los Angeles Rams,Lincoln Financial Field,False,62,8mi NorthEast,0.35,Clear,LAR,PHI,2020_2,6,8,NorthEast,0.2,0.0
+2020-09-20,2020,2,Pittsburgh Steelers,26,21,Denver Broncos,Heinz Field,False,64,2mi East - SouthEast,0.35,Clear,DEN,PIT,2020_2,6,2,East - SouthEast,0.0,0.0
+2020-09-20,2020,2,Seattle Seahawks,35,30,New England Patriots,CenturyLink Field,False,68,3mi West - NorthWest,0.65,Partly Cloudy,NE,SEA,2020_2,6,3,West - NorthWest,0.43,0.0
+2020-09-20,2020,2,Tampa Bay Buccaneers,31,17,Carolina Panthers,Raymond James Stadium,False,87,14mi NorthEast,0.68,Humid and Mostly Cloudy,CAR,TB,2020_2,6,14,NorthEast,0.87,0.0
+2020-09-20,2020,2,Tennessee Titans,33,30,Jacksonville Jaguars,Nissan Stadium,False,73,5mi East - NorthEast,0.65,Clear,JAX,TEN,2020_2,6,5,East - NorthEast,0.3,0.0
+2020-09-21,2020,2,Las Vegas Raiders,34,24,New Orleans Saints,Allegiant Stadium,False,95,13mi South - SouthEast,0.15,Clear,NO,LV,2020_2,0,13,South - SouthEast,0.23,0.0
+2020-09-24,2020,3,Jacksonville Jaguars,13,31,Miami Dolphins,TIAA Bank Field,False,80,8mi SouthEast,0.78,Humid,MIA,JAX,2020_3,3,8,SouthEast,0.27,0.0
+2020-09-27,2020,3,Arizona Cardinals,23,26,Detroit Lions,University of Phoenix Stadium,False,72,0.0,0.8,DOME,DET,ARZ,2020_3,6,0,No wind,0.7,0.0
+2020-09-27,2020,3,Atlanta Falcons,26,30,Chicago Bears,Mercedes-Benz Stadium,False,72,0.0,0.7,DOME,CHI,ATL,2020_3,6,0,No wind,0.32,0.0
+2020-09-27,2020,3,Buffalo Bills,35,32,Los Angeles Rams,New Era Field,False,75,13mi South - SouthWest,0.57,Clear,LAR,BUF,2020_3,6,13,South - SouthWest,0.11,0.0
+2020-09-27,2020,3,Cleveland Browns,34,20,Washington Football Team,FirstEnergy Stadium,False,77,13mi South - SouthWest,0.56,Clear,WAS,CLV,2020_3,6,13,South - SouthWest,0.3,0.0
+2020-09-27,2020,3,Denver Broncos,10,28,Tampa Bay Buccaneers,Sports Authority Field at Mile High,False,54,4mi North,0.42,Foggy,TB,DEN,2020_3,6,4,North,0.57,0.0
+2020-09-27,2020,3,Indianapolis Colts,36,7,New York Jets,Lucas Oil Stadium,False,72,0.0,0.64,DOME,NYJ,IND,2020_3,6,0,No wind,0.15,0.0
+2020-09-27,2020,3,Los Angeles Chargers,16,21,Carolina Panthers,SoFi Stadium,False,75,5mi SouthWest,0.68,Clear,CAR,LAC,2020_3,6,5,SouthWest,0.16,0.0
+2020-09-27,2020,3,Minnesota Vikings,30,31,Tennessee Titans,U.S. Bank Stadium,False,72,0.0,0.52,DOME,TEN,MIN,2020_3,6,0,No wind,0.55,0.0
+2020-09-27,2020,3,New England Patriots,36,20,Las Vegas Raiders,Gillette Stadium,False,76,7mi South,0.78,Mostly Cloudy,LV,NE,2020_3,6,7,South,0.69,0.0
+2020-09-27,2020,3,New Orleans Saints,30,37,Green Bay Packers,Mercedes-Benz Superdome,False,72,0.0,0.75,DOME,GB,NO,2020_3,6,0,No wind,0.18,0.0
+2020-09-27,2020,3,New York Giants,9,36,San Francisco 49ers,MetLife Stadium,False,77,4mi South - SouthEast,0.71,Partly Cloudy,SF,NYG,2020_3,6,4,South - SouthEast,0.52,0.0
+2020-09-27,2020,3,Philadelphia Eagles,23,23,Cincinnati Bengals,Lincoln Financial Field,False,76,3mi East - SouthEast,0.76,Mostly Cloudy,CIN,PHI,2020_3,6,3,East - SouthEast,0.66,0.0
+2020-09-27,2020,3,Pittsburgh Steelers,28,21,Houston Texans,Heinz Field,False,76,3mi West - SouthWest,0.59,Clear,HST,PIT,2020_3,6,3,West - SouthWest,0.3,0.0
+2020-09-27,2020,3,Seattle Seahawks,38,31,Dallas Cowboys,CenturyLink Field,False,64,3mi North,0.63,Clear,DAL,SEA,2020_3,6,3,North,0.31,0.0
+2020-09-28,2020,3,Baltimore Ravens,20,34,Kansas City Chiefs,M&T Bank Stadium,False,72,8mi South - SouthEast,0.81,Clear,KC,BLT,2020_3,0,8,South - SouthEast,0.8,0.0
+2020-10-01,2020,4,New York Jets,28,37,Denver Broncos,MetLife Stadium,False,65,4mi SouthWest,0.61,Mostly Cloudy,DEN,NYJ,2020_4,3,4,SouthWest,0.62,0.0
+2020-10-04,2020,4,Carolina Panthers,31,21,Arizona Cardinals,Bank of America Stadium,False,65,5mi NorthEast,0.54,Clear,ARZ,CAR,2020_4,6,5,NorthEast,0.26,0.0
+2020-10-04,2020,4,Chicago Bears,11,19,Indianapolis Colts,Soldier Field,False,49,12mi North - NorthWest,0.75,Partly Cloudy,IND,CHI,2020_4,6,12,North - NorthWest,0.57,0.0
+2020-10-04,2020,4,Cincinnati Bengals,33,25,Jacksonville Jaguars,Paul Brown Stadium,False,66,8mi SouthWest,0.53,Partly Cloudy,JAX,CIN,2020_4,6,8,SouthWest,0.42,0.0
+2020-10-04,2020,4,Dallas Cowboys,38,49,Cleveland Browns,AT&T Stadium,False,72,0.0,0.43,DOME,CLV,DAL,2020_4,6,0,No wind,0.5,0.0
+2020-10-04,2020,4,Detroit Lions,29,35,New Orleans Saints,Ford Field,False,72,0.0,0.8,DOME,NO,DET,2020_4,6,0,No wind,0.81,0.1
+2020-10-04,2020,4,Houston Texans,23,31,Minnesota Vikings,NRG Stadium,False,72,0.0,0.52,DOME,MIN,HST,2020_4,6,0,No wind,0.0,0.0
+2020-10-04,2020,4,Las Vegas Raiders,23,30,Buffalo Bills,Allegiant Stadium,False,91,4mi East,0.4,Clear,BUF,LV,2020_4,6,4,East,0.0,0.0
+2020-10-04,2020,4,Los Angeles Rams,17,9,New York Giants,SoFi Stadium,False,88,3mi West - SouthWest,0.31,Clear,NYG,LAR,2020_4,6,3,West - SouthWest,0.2,0.0
+2020-10-04,2020,4,Miami Dolphins,23,31,Seattle Seahawks,Hard Rock Stadium,False,86,13mi SouthEast,0.72,Humid and Mostly Cloudy,SEA,MIA,2020_4,6,13,SouthEast,0.82,0.11
+2020-10-04,2020,4,San Francisco 49ers,20,25,Philadelphia Eagles,Levi's Stadium,False,84,6mi NorthWest,0.3,Clear,PHI,SF,2020_4,6,6,NorthWest,0.6,0.0
+2020-10-04,2020,4,Tampa Bay Buccaneers,38,31,Los Angeles Chargers,Raymond James Stadium,False,75,7mi North - NorthEast,0.9,Humid and Overcast,LAC,TB,2020_4,6,7,North - NorthEast,0.98,0.0
+2020-10-04,2020,4,Washington Football Team,17,31,Baltimore Ravens,FedEx Field,False,66,4mi East - NorthEast,0.47,Clear,BLT,WAS,2020_4,6,4,East - NorthEast,0.2,0.0
+2020-10-05,2020,4,Green Bay Packers,30,16,Atlanta Falcons,Lambeau Field,False,53,12mi South - SouthWest,0.61,Clear,ATL,GB,2020_4,0,12,South - SouthWest,0.0,0.0
+2020-10-05,2020,4,Kansas City Chiefs,26,10,New England Patriots,Arrowhead Stadium,False,70,11mi South,0.45,Clear,NE,KC,2020_4,0,11,South,0.22,0.0
+2020-10-08,2020,5,Chicago Bears,20,19,Tampa Bay Buccaneers,Soldier Field,False,57,6mi East - NorthEast,0.73,Clear,TB,CHI,2020_5,3,6,East - NorthEast,0.0,0.0
+2020-10-11,2020,5,Atlanta Falcons,16,23,Carolina Panthers,Mercedes-Benz Stadium,False,72,0.0,0.89,DOME,CAR,ATL,2020_5,6,0,No wind,0.93,0.1
+2020-10-11,2020,5,Baltimore Ravens,27,3,Cincinnati Bengals,M&T Bank Stadium,False,69,5mi East - SouthEast,0.91,Mostly Cloudy,CIN,BLT,2020_5,6,5,East - SouthEast,0.86,0.0
+2020-10-11,2020,5,Cleveland Browns,32,23,Indianapolis Colts,FirstEnergy Stadium,False,63,13mi NorthEast,0.77,Mostly Cloudy,IND,CLV,2020_5,6,13,NorthEast,0.75,0.0
+2020-10-11,2020,5,Dallas Cowboys,37,34,New York Giants,AT&T Stadium,False,72,0.0,0.34,DOME,NYG,DAL,2020_5,6,0,No wind,0.0,0.0
+2020-10-11,2020,5,Houston Texans,30,14,Jacksonville Jaguars,NRG Stadium,False,72,0.0,0.69,DOME,JAX,HST,2020_5,6,0,No wind,0.26,0.0
+2020-10-11,2020,5,Kansas City Chiefs,32,40,Las Vegas Raiders,Arrowhead Stadium,False,77,12mi South - SouthEast,0.64,Clear,LV,KC,2020_5,6,12,South - SouthEast,0.2,0.0
+2020-10-11,2020,5,New York Jets,10,30,Arizona Cardinals,MetLife Stadium,False,65,7mi NorthEast,0.57,Mostly Cloudy,ARZ,NYJ,2020_5,6,7,NorthEast,0.82,0.0
+2020-10-11,2020,5,Pittsburgh Steelers,38,29,Philadelphia Eagles,Heinz Field,False,69,5mi NorthEast,0.81,Mostly Cloudy,PHI,PIT,2020_5,6,5,NorthEast,0.83,0.0
+2020-10-11,2020,5,San Francisco 49ers,17,43,Miami Dolphins,Levi's Stadium,False,73,8mi North - NorthWest,0.43,Clear,MIA,SF,2020_5,6,8,North - NorthWest,0.4,0.0
+2020-10-11,2020,5,Seattle Seahawks,27,26,Minnesota Vikings,CenturyLink Field,False,56,13mi South,0.92,Drizzle,MIN,SEA,2020_5,6,13,South,0.95,0.1
+2020-10-11,2020,5,Washington Football Team,10,30,Los Angeles Rams,FedEx Field,False,70,3mi South - SouthEast,0.9,Possible Drizzle,LAR,WAS,2020_5,6,3,South - SouthEast,0.79,0.28
+2020-10-12,2020,5,New Orleans Saints,30,27,Los Angeles Chargers,Mercedes-Benz Superdome,False,72,0.0,0.73,DOME,LAC,NO,2020_5,0,0,No wind,0.3,0.0
+2020-10-13,2020,5,Tennessee Titans,42,16,Buffalo Bills,Nissan Stadium,False,66,2mi North - NorthWest,0.48,Clear,BUF,TEN,2020_5,1,2,North - NorthWest,0.0,0.0
+2020-10-18,2020,6,Carolina Panthers,16,23,Chicago Bears,Bank of America Stadium,False,61,4mi NorthEast,0.48,Clear,CHI,CAR,2020_6,6,4,NorthEast,0.0,0.0
+2020-10-18,2020,6,Indianapolis Colts,31,27,Cincinnati Bengals,Lucas Oil Stadium,False,72,0.0,0.69,DOME,CIN,IND,2020_6,6,0,No wind,0.82,0.0
+2020-10-18,2020,6,Jacksonville Jaguars,16,34,Detroit Lions,TIAA Bank Field,False,79,9mi East - NorthEast,0.78,Humid and Partly Cloudy,DET,JAX,2020_6,6,9,East - NorthEast,0.56,0.0
+2020-10-18,2020,6,Miami Dolphins,24,0,New York Jets,Hard Rock Stadium,False,82,14mi East - NorthEast,0.74,Humid and Partly Cloudy,NYJ,MIA,2020_6,6,14,East - NorthEast,0.49,0.0
+2020-10-18,2020,6,Minnesota Vikings,23,40,Atlanta Falcons,U.S. Bank Stadium,False,72,0.0,0.49,DOME,ATL,MIN,2020_6,6,0,No wind,0.18,0.0
+2020-10-18,2020,6,New England Patriots,12,18,Denver Broncos,Gillette Stadium,False,58,6mi SouthEast,0.47,Partly Cloudy,DEN,NE,2020_6,6,6,SouthEast,0.42,0.0
+2020-10-18,2020,6,New York Giants,20,19,Washington Football Team,MetLife Stadium,False,63,11mi South - SouthEast,0.52,Partly Cloudy,WAS,NYG,2020_6,6,11,South - SouthEast,0.46,0.0
+2020-10-18,2020,6,Philadelphia Eagles,28,30,Baltimore Ravens,Lincoln Financial Field,False,64,7mi SouthEast,0.52,Clear,BLT,PHI,2020_6,6,7,SouthEast,0.25,0.0
+2020-10-18,2020,6,Pittsburgh Steelers,38,7,Cleveland Browns,Heinz Field,False,60,8mi East - SouthEast,0.44,Mostly Cloudy,CLV,PIT,2020_6,6,8,East - SouthEast,0.72,0.0
+2020-10-18,2020,6,San Francisco 49ers,24,16,Los Angeles Rams,Levi's Stadium,False,83,6mi NorthWest,0.31,Clear,LAR,SF,2020_6,6,6,NorthWest,0.0,0.0
+2020-10-18,2020,6,Tampa Bay Buccaneers,38,10,Green Bay Packers,Raymond James Stadium,False,86,15mi NorthEast,0.53,Partly Cloudy,GB,TB,2020_6,6,15,NorthEast,0.47,0.0
+2020-10-18,2020,6,Tennessee Titans,42,36,Houston Texans,Nissan Stadium,False,61,6mi South,0.71,Mostly Cloudy,HST,TEN,2020_6,6,6,South,0.69,0.0
+2020-10-19,2020,6,Buffalo Bills,17,26,Kansas City Chiefs,New Era Field,False,50,3mi SouthEast,0.88,Overcast,KC,BUF,2020_6,0,3,SouthEast,0.1,0.0
+2020-10-19,2020,6,Dallas Cowboys,10,38,Arizona Cardinals,AT&T Stadium,False,72,0.0,0.74,DOME,ARZ,DAL,2020_6,0,0,No wind,0.31,0.0
+2020-10-22,2020,7,Philadelphia Eagles,22,21,New York Giants,Lincoln Financial Field,False,68,3mi SouthEast,0.97,Partly Cloudy,NYG,PHI,2020_7,3,3,SouthEast,0.49,0.0
+2020-10-25,2020,7,Arizona Cardinals,37,34,Seattle Seahawks,University of Phoenix Stadium,False,72,0.0,0.31,DOME,SEA,ARZ,2020_7,6,0,No wind,0.36,0.0
+2020-10-25,2020,7,Atlanta Falcons,22,23,Detroit Lions,Mercedes-Benz Stadium,False,72,0.0,0.79,DOME,DET,ATL,2020_7,6,0,No wind,0.76,0.0
+2020-10-25,2020,7,Cincinnati Bengals,34,37,Cleveland Browns,Paul Brown Stadium,False,48,5mi East - NorthEast,0.81,Mostly Cloudy,CLV,CIN,2020_7,6,5,East - NorthEast,0.85,0.0
+2020-10-25,2020,7,Denver Broncos,16,43,Kansas City Chiefs,Sports Authority Field at Mile High,False,14,8mi West - NorthWest,0.76,Foggy,KC,DEN,2020_7,6,8,West - NorthWest,0.1,0.0
+2020-10-25,2020,7,Houston Texans,20,35,Green Bay Packers,NRG Stadium,False,72,0.0,0.84,DOME,GB,HST,2020_7,6,0,No wind,0.72,0.0
+2020-10-25,2020,7,Las Vegas Raiders,20,45,Tampa Bay Buccaneers,Allegiant Stadium,False,75,7mi West - NorthWest,0.19,Clear,TB,LV,2020_7,6,7,West - NorthWest,0.8,0.0
+2020-10-25,2020,7,Los Angeles Chargers,39,29,Jacksonville Jaguars,SoFi Stadium,False,68,7mi West - SouthWest,0.57,Mostly Cloudy,JAX,LAC,2020_7,6,7,West - SouthWest,0.84,0.0
+2020-10-25,2020,7,New England Patriots,6,33,San Francisco 49ers,Gillette Stadium,False,49,5mi East - NorthEast,0.61,Overcast,SF,NE,2020_7,6,5,East - NorthEast,0.9,0.0
+2020-10-25,2020,7,New Orleans Saints,27,24,Carolina Panthers,Mercedes-Benz Superdome,False,72,0.0,0.89,DOME,CAR,NO,2020_7,6,0,No wind,0.49,0.0
+2020-10-25,2020,7,New York Jets,10,18,Buffalo Bills,MetLife Stadium,False,50,6mi NorthEast,0.54,Partly Cloudy,BUF,NYJ,2020_7,6,6,NorthEast,0.43,0.0
+2020-10-25,2020,7,Tennessee Titans,24,27,Pittsburgh Steelers,Nissan Stadium,False,58,2mi North,0.89,Overcast,PIT,TEN,2020_7,6,2,North,0.95,0.0
+2020-10-25,2020,7,Washington Football Team,25,3,Dallas Cowboys,FedEx Field,False,46,6mi NorthEast,0.91,Overcast,DAL,WAS,2020_7,6,6,NorthEast,0.1,0.0
+2020-10-26,2020,7,Los Angeles Rams,24,10,Chicago Bears,SoFi Stadium,False,73,4mi North,0.9,Clear,CHI,LAR,2020_7,0,4,North,0.19,0.0
+2020-10-29,2020,8,Carolina Panthers,17,25,Atlanta Falcons,Bank of America Stadium,False,74,7mi South,0.95,Humid and Partly Cloudy,ATL,CAR,2020_8,3,7,South,0.37,0.0
+2020-11-01,2020,8,Baltimore Ravens,24,28,Pittsburgh Steelers,M&T Bank Stadium,False,51,10mi South - SouthWest,0.1,Light Rain,PIT,BLT,2020_8,6,10,South - SouthWest,0.93,0.1
+2020-11-01,2020,8,Buffalo Bills,24,21,New England Patriots,New Era Field,False,42,17mi West - SouthWest,0.92,Rain,NE,BUF,2020_8,6,17,West - SouthWest,0.89,0.1
+2020-11-01,2020,8,Chicago Bears,23,26,New Orleans Saints,Soldier Field,False,38,18mi NorthWest,0.49,Partly Cloudy,NO,CHI,2020_8,6,18,NorthWest,0.46,0.0
+2020-11-01,2020,8,Cincinnati Bengals,31,20,Tennessee Titans,Paul Brown Stadium,False,49,18mi West,0.48,Clear,TEN,CIN,2020_8,6,18,West,0.5,0.0
+2020-11-01,2020,8,Cleveland Browns,6,16,Las Vegas Raiders,FirstEnergy Stadium,False,47,26mi NorthWest,0.68,Windy and Overcast,LV,CLV,2020_8,6,26,NorthWest,0.89,0.0
+2020-11-01,2020,8,Denver Broncos,31,30,Los Angeles Chargers,Sports Authority Field at Mile High,False,66,7mi West - NorthWest,0.2,Foggy,LAC,DEN,2020_8,6,7,West - NorthWest,0.0,0.0
+2020-11-01,2020,8,Detroit Lions,21,41,Indianapolis Colts,Ford Field,False,72,0.0,0.65,DOME,IND,DET,2020_8,6,0,No wind,0.69,0.1
+2020-11-01,2020,8,Green Bay Packers,22,28,Minnesota Vikings,Lambeau Field,False,33,24mi NorthWest,0.55,Mostly Cloudy,MIN,GB,2020_8,6,24,NorthWest,0.79,0.0
+2020-11-01,2020,8,Kansas City Chiefs,35,9,New York Jets,Arrowhead Stadium,False,46,12mi North - NorthWest,0.38,Clear,NYJ,KC,2020_8,6,12,North - NorthWest,0.2,0.0
+2020-11-01,2020,8,Miami Dolphins,28,17,Los Angeles Rams,Hard Rock Stadium,False,85,9mi East,0.74,Humid and Partly Cloudy,LAR,MIA,2020_8,6,9,East,0.36,0.0
+2020-11-01,2020,8,Philadelphia Eagles,23,9,Dallas Cowboys,Lincoln Financial Field,False,50,11mi NorthWest,0.87,Mostly Cloudy,DAL,PHI,2020_8,6,11,NorthWest,0.65,0.0
+2020-11-01,2020,8,Seattle Seahawks,37,27,San Francisco 49ers,CenturyLink Field,False,55,3mi North,0.64,Clear,SF,SEA,2020_8,6,3,North,0.1,0.0
+2020-11-02,2020,8,New York Giants,23,25,Tampa Bay Buccaneers,MetLife Stadium,False,39,8mi West,0.46,Clear,TB,NYG,2020_8,0,8,West,0.3,0.0
+2020-11-05,2020,9,San Francisco 49ers,17,34,Green Bay Packers,Levi's Stadium,False,76,4mi NorthWest,0.39,Partly Cloudy,GB,SF,2020_9,3,4,NorthWest,0.36,0.0
+2020-11-08,2020,9,Arizona Cardinals,31,34,Miami Dolphins,University of Phoenix Stadium,False,72,0.0,0.33,DOME,MIA,ARZ,2020_9,6,0,No wind,0.56,0.0
+2020-11-08,2020,9,Atlanta Falcons,34,27,Denver Broncos,Mercedes-Benz Stadium,False,72,0.0,0.77,DOME,DEN,ATL,2020_9,6,0,No wind,0.87,0.0
+2020-11-08,2020,9,Buffalo Bills,44,34,Seattle Seahawks,New Era Field,False,65,3mi SouthWest,0.46,Clear,SEA,BUF,2020_9,6,3,SouthWest,0.0,0.0
+2020-11-08,2020,9,Dallas Cowboys,19,24,Pittsburgh Steelers,AT&T Stadium,False,72,0.0,0.64,DOME,PIT,DAL,2020_9,6,0,No wind,0.43,0.0
+2020-11-08,2020,9,Indianapolis Colts,10,24,Baltimore Ravens,Lucas Oil Stadium,False,72,0.0,0.53,DOME,BLT,IND,2020_9,6,0,No wind,0.27,0.0
+2020-11-08,2020,9,Jacksonville Jaguars,25,27,Houston Texans,TIAA Bank Field,False,80,15mi East - NorthEast,0.68,Mostly Cloudy,HST,JAX,2020_9,6,15,East - NorthEast,0.69,0.0
+2020-11-08,2020,9,Kansas City Chiefs,33,31,Carolina Panthers,Arrowhead Stadium,False,68,15mi South,0.68,Partly Cloudy,CAR,KC,2020_9,6,15,South,0.34,0.0
+2020-11-08,2020,9,Los Angeles Chargers,26,31,Las Vegas Raiders,SoFi Stadium,False,62,11mi SouthWest,0.45,Clear,LV,LAC,2020_9,6,11,SouthWest,0.19,0.0
+2020-11-08,2020,9,Minnesota Vikings,34,20,Detroit Lions,U.S. Bank Stadium,False,72,0.0,0.63,DOME,DET,MIN,2020_9,6,0,No wind,0.8,0.0
+2020-11-08,2020,9,Tampa Bay Buccaneers,3,38,New Orleans Saints,Raymond James Stadium,False,77,13mi NorthEast,0.74,Mostly Cloudy,NO,TB,2020_9,6,13,NorthEast,0.85,0.0
+2020-11-08,2020,9,Tennessee Titans,24,17,Chicago Bears,Nissan Stadium,False,74,7mi East - SouthEast,0.56,Clear,CHI,TEN,2020_9,6,7,East - SouthEast,0.4,0.0
+2020-11-08,2020,9,Washington Football Team,20,23,New York Giants,FedEx Field,False,68,1mi South - SouthWest,0.59,Clear,NYG,WAS,2020_9,6,1,South - SouthWest,0.5,0.0
+2020-11-09,2020,9,New York Jets,27,30,New England Patriots,MetLife Stadium,False,60,3mi South - SouthWest,0.8,Clear,NE,NYJ,2020_9,0,3,South - SouthWest,0.1,0.0
+2020-11-12,2020,10,Tennessee Titans,17,34,Indianapolis Colts,Nissan Stadium,False,52,3mi North,0.57,Clear,IND,TEN,2020_10,3,3,North,0.0,0.0
+2020-11-15,2020,10,Arizona Cardinals,32,30,Buffalo Bills,University of Phoenix Stadium,False,72,0.0,0.1,DOME,BUF,ARZ,2020_10,6,0,No wind,0.0,0.0
+2020-11-15,2020,10,Carolina Panthers,23,46,Tampa Bay Buccaneers,Bank of America Stadium,False,66,12mi South - SouthWest,0.88,Mostly Cloudy,TB,CAR,2020_10,6,12,South - SouthWest,0.82,0.0
+2020-11-15,2020,10,Cleveland Browns,10,7,Houston Texans,FirstEnergy Stadium,False,59,16mi South - SouthWest,0.69,Partly Cloudy,HST,CLV,2020_10,6,16,South - SouthWest,0.59,0.0
+2020-11-15,2020,10,Detroit Lions,30,27,Washington Football Team,Ford Field,False,72,0.0,0.82,DOME,WAS,DET,2020_10,6,0,No wind,0.9,0.1
+2020-11-15,2020,10,Green Bay Packers,24,20,Jacksonville Jaguars,Lambeau Field,False,37,24mi West,0.88,Light Rain and Windy,JAX,GB,2020_10,6,24,West,0.1,0.1
+2020-11-15,2020,10,Las Vegas Raiders,37,12,Denver Broncos,Allegiant Stadium,False,62,4mi East - NorthEast,0.13,Clear,DEN,LV,2020_10,6,4,East - NorthEast,0.6,0.0
+2020-11-15,2020,10,Los Angeles Rams,23,16,Seattle Seahawks,SoFi Stadium,False,81,3mi West - SouthWest,0.17,Clear,SEA,LAR,2020_10,6,3,West - SouthWest,0.1,0.0
+2020-11-15,2020,10,Miami Dolphins,29,21,Los Angeles Chargers,Hard Rock Stadium,False,83,6mi East - SouthEast,0.7,Humid,LAC,MIA,2020_10,6,6,East - SouthEast,0.17,0.0
+2020-11-15,2020,10,New England Patriots,23,17,Baltimore Ravens,Gillette Stadium,False,50,12mi South - SouthEast,0.88,Mostly Cloudy,BLT,NE,2020_10,6,12,South - SouthEast,0.84,0.0
+2020-11-15,2020,10,New Orleans Saints,27,13,San Francisco 49ers,Mercedes-Benz Superdome,False,72,0.0,0.69,DOME,SF,NO,2020_10,6,0,No wind,0.38,0.0
+2020-11-15,2020,10,New York Giants,27,17,Philadelphia Eagles,MetLife Stadium,False,55,13mi South - SouthEast,0.63,Partly Cloudy,PHI,NYG,2020_10,6,13,South - SouthEast,0.56,0.0
+2020-11-15,2020,10,Pittsburgh Steelers,36,10,Cincinnati Bengals,Heinz Field,False,56,8mi West,0.7,Mostly Cloudy,CIN,PIT,2020_10,6,8,West,0.61,0.0
+2020-11-16,2020,10,Chicago Bears,13,19,Minnesota Vikings,Soldier Field,False,43,8mi SouthWest,0.7,Clear,MIN,CHI,2020_10,0,8,SouthWest,0.2,0.0
+2020-11-19,2020,11,Seattle Seahawks,28,21,Arizona Cardinals,CenturyLink Field,False,47,9mi South,0.85,Partly Cloudy,ARZ,SEA,2020_11,3,9,South,0.57,0.0
+2020-11-22,2020,11,Baltimore Ravens,24,30,Tennessee Titans,M&T Bank Stadium,False,51,7mi East,0.73,Mostly Cloudy,TEN,BLT,2020_11,6,7,East,0.87,0.0
+2020-11-22,2020,11,Carolina Panthers,20,0,Detroit Lions,Bank of America Stadium,False,61,2mi East - SouthEast,0.68,Mostly Cloudy,DET,CAR,2020_11,6,2,East - SouthEast,0.78,0.0
+2020-11-22,2020,11,Cleveland Browns,22,17,Philadelphia Eagles,FirstEnergy Stadium,False,37,5mi North - NorthEast,0.89,Light Rain,PHI,CLV,2020_11,6,5,North - NorthEast,0.1,0.1
+2020-11-22,2020,11,Denver Broncos,20,13,Miami Dolphins,Sports Authority Field at Mile High,False,44,3mi West - SouthWest,0.2,Foggy,MIA,DEN,2020_11,6,3,West - SouthWest,0.1,0.0
+2020-11-22,2020,11,Houston Texans,27,20,New England Patriots,NRG Stadium,False,72,0.0,0.63,DOME,NE,HST,2020_11,6,0,No wind,0.38,0.0
+2020-11-22,2020,11,Indianapolis Colts,34,31,Green Bay Packers,Lucas Oil Stadium,False,72,0.0,0.9,DOME,GB,IND,2020_11,6,0,No wind,0.1,0.0
+2020-11-22,2020,11,Jacksonville Jaguars,3,27,Pittsburgh Steelers,TIAA Bank Field,False,71,7mi North - NorthEast,0.86,Partly Cloudy,PIT,JAX,2020_11,6,7,North - NorthEast,0.56,0.0
+2020-11-22,2020,11,Las Vegas Raiders,31,35,Kansas City Chiefs,Allegiant Stadium,False,65,1mi East - SouthEast,0.18,Clear,KC,LV,2020_11,6,1,East - SouthEast,0.27,0.0
+2020-11-22,2020,11,Los Angeles Chargers,34,28,New York Jets,SoFi Stadium,False,69,4mi SouthWest,0.55,Clear,NYJ,LAC,2020_11,6,4,SouthWest,0.28,0.0
+2020-11-22,2020,11,Minnesota Vikings,28,31,Dallas Cowboys,U.S. Bank Stadium,False,72,0.0,0.78,DOME,DAL,MIN,2020_11,6,0,No wind,0.95,0.52
+2020-11-22,2020,11,New Orleans Saints,24,9,Atlanta Falcons,Mercedes-Benz Superdome,False,72,0.0,0.64,DOME,ATL,NO,2020_11,6,0,No wind,0.2,0.0
+2020-11-22,2020,11,Washington Football Team,20,9,Cincinnati Bengals,FedEx Field,False,54,7mi East,0.72,Mostly Cloudy,CIN,WAS,2020_11,6,7,East,0.75,0.0
+2020-11-23,2020,11,Tampa Bay Buccaneers,24,27,Los Angeles Rams,Raymond James Stadium,False,69,4mi North,0.69,Clear,LAR,TB,2020_11,0,4,North,0.5,0.0
+2020-11-26,2020,12,Dallas Cowboys,16,41,Washington Football Team,AT&T Stadium,False,72,0.0,0.49,DOME,WAS,DAL,2020_12,3,0,No wind,0.18,0.0
+2020-11-26,2020,12,Detroit Lions,25,41,Houston Texans,Ford Field,False,72,0.0,0.81,DOME,HST,DET,2020_12,3,0,No wind,0.1,0.0
+2020-11-29,2020,12,Atlanta Falcons,43,6,Las Vegas Raiders,Mercedes-Benz Stadium,False,72,0.0,0.9,DOME,LV,ATL,2020_12,6,0,No wind,0.1,0.0
+2020-11-29,2020,12,Buffalo Bills,27,17,Los Angeles Chargers,New Era Field,False,46,11mi SouthWest,0.57,Clear,LAC,BUF,2020_12,6,11,SouthWest,0.7,0.0
+2020-11-29,2020,12,Cincinnati Bengals,17,19,New York Giants,Paul Brown Stadium,False,46,4mi South - SouthEast,0.68,Partly Cloudy,NYG,CIN,2020_12,6,4,South - SouthEast,0.32,0.0
+2020-11-29,2020,12,Denver Broncos,3,31,New Orleans Saints,Sports Authority Field at Mile High,False,38,3mi NorthWest,0.34,Foggy,NO,DEN,2020_12,6,3,NorthWest,0.5,0.0
+2020-11-29,2020,12,Green Bay Packers,41,25,Chicago Bears,Lambeau Field,False,35,13mi NorthWest,0.65,Partly Cloudy,CHI,GB,2020_12,6,13,NorthWest,0.56,0.0
+2020-11-29,2020,12,Indianapolis Colts,26,45,Tennessee Titans,Lucas Oil Stadium,False,72,0.0,0.54,DOME,TEN,IND,2020_12,6,0,No wind,0.51,0.0
+2020-11-29,2020,12,Jacksonville Jaguars,25,27,Cleveland Browns,TIAA Bank Field,False,68,1mi NorthEast,0.85,Mostly Cloudy,CLV,JAX,2020_12,6,1,NorthEast,0.66,0.0
+2020-11-29,2020,12,Los Angeles Rams,20,23,San Francisco 49ers,SoFi Stadium,False,73,1mi West - SouthWest,0.14,Clear,SF,LAR,2020_12,6,1,West - SouthWest,0.3,0.0
+2020-11-29,2020,12,Minnesota Vikings,28,27,Carolina Panthers,U.S. Bank Stadium,False,72,0.0,0.59,DOME,CAR,MIN,2020_12,6,0,No wind,0.42,0.34
+2020-11-29,2020,12,New England Patriots,20,17,Arizona Cardinals,Gillette Stadium,False,49,5mi SouthWest,0.53,Clear,ARZ,NE,2020_12,6,5,SouthWest,0.0,0.0
+2020-11-29,2020,12,New York Jets,3,20,Miami Dolphins,MetLife Stadium,False,51,3mi SouthWest,0.44,Clear,MIA,NYJ,2020_12,6,3,SouthWest,0.0,0.0
+2020-11-29,2020,12,Tampa Bay Buccaneers,24,27,Kansas City Chiefs,Raymond James Stadium,False,80,6mi South - SouthWest,0.52,Clear,KC,TB,2020_12,6,6,South - SouthWest,0.24,0.0
+2020-11-30,2020,12,Philadelphia Eagles,17,23,Seattle Seahawks,Lincoln Financial Field,False,60,7mi South - SouthWest,0.99,Mostly Cloudy,SEA,PHI,2020_12,0,7,South - SouthWest,0.76,0.0
+2020-12-02,2020,12,Pittsburgh Steelers,19,14,Baltimore Ravens,Heinz Field,False,37,5mi West - SouthWest,0.7,Partly Cloudy,BLT,PIT,2020_12,2,5,West - SouthWest,0.54,0.0
+2020-12-06,2020,13,Arizona Cardinals,28,38,Los Angeles Rams,University of Phoenix Stadium,False,72,0.0,0.11,DOME,LAR,ARZ,2020_13,6,0,No wind,0.1,0.0
+2020-12-06,2020,13,Atlanta Falcons,16,21,New Orleans Saints,Mercedes-Benz Stadium,False,72,0.0,0.67,DOME,NO,ATL,2020_13,6,0,No wind,0.41,0.0
+2020-12-06,2020,13,Chicago Bears,30,34,Detroit Lions,Soldier Field,False,35,3mi East - NorthEast,0.83,Overcast,DET,CHI,2020_13,6,3,East - NorthEast,0.95,0.1
+2020-12-06,2020,13,Green Bay Packers,30,16,Philadelphia Eagles,Lambeau Field,False,34,6mi West - SouthWest,0.66,Mostly Cloudy,PHI,GB,2020_13,6,6,West - SouthWest,0.85,0.0
+2020-12-06,2020,13,Houston Texans,20,26,Indianapolis Colts,NRG Stadium,False,72,0.0,0.73,DOME,IND,HST,2020_13,6,0,No wind,0.14,0.0
+2020-12-06,2020,13,Kansas City Chiefs,22,16,Denver Broncos,Arrowhead Stadium,False,38,6mi North - NorthWest,0.71,Clear,DEN,KC,2020_13,6,6,North - NorthWest,0.21,0.0
+2020-12-06,2020,13,Los Angeles Chargers,0,45,New England Patriots,SoFi Stadium,False,70,4mi West - SouthWest,0.18,Clear,NE,LAC,2020_13,6,4,West - SouthWest,0.3,0.0
+2020-12-06,2020,13,Miami Dolphins,19,7,Cincinnati Bengals,Hard Rock Stadium,False,80,3mi SouthEast,0.68,Partly Cloudy,CIN,MIA,2020_13,6,3,SouthEast,0.39,0.0
+2020-12-06,2020,13,Minnesota Vikings,27,24,Jacksonville Jaguars,U.S. Bank Stadium,False,72,0.0,0.84,DOME,JAX,MIN,2020_13,6,0,No wind,0.61,0.23
+2020-12-06,2020,13,New York Jets,28,31,Las Vegas Raiders,MetLife Stadium,False,39,13mi NorthWest,0.54,Clear,LV,NYJ,2020_13,6,13,NorthWest,0.21,0.0
+2020-12-06,2020,13,Seattle Seahawks,12,17,New York Giants,CenturyLink Field,False,51,8mi South,0.81,Overcast,NYG,SEA,2020_13,6,8,South,0.89,0.0
+2020-12-06,2020,13,Tennessee Titans,35,41,Cleveland Browns,Nissan Stadium,False,47,2mi South,0.76,Partly Cloudy,CLV,TEN,2020_13,6,2,South,0.4,0.0
+2020-12-07,2020,13,Pittsburgh Steelers,17,23,Washington Football Team,Heinz Field,False,33,11mi North,0.6,Overcast,WAS,PIT,2020_13,0,11,North,0.1,0.0
+2020-12-07,2020,13,San Francisco 49ers,24,34,Buffalo Bills,State Farm Stadium,True,68,6mi North - NorthWest,0.24,Clear,BUF,SF,2020_13,0,6,North - NorthWest,0.2,0.0
+2020-12-08,2020,13,Baltimore Ravens,34,17,Dallas Cowboys,M&T Bank Stadium,False,37,11mi West - NorthWest,0.62,Clear,DAL,BLT,2020_13,1,11,West - NorthWest,0.1,0.0
+2020-12-10,2020,14,Los Angeles Rams,24,3,New England Patriots,SoFi Stadium,False,60,4mi South,0.66,Clear,NE,LAR,2020_14,3,4,South,0.25,0.0
+2020-12-13,2020,14,Buffalo Bills,26,15,Pittsburgh Steelers,New Era Field,False,31,6mi West,0.81,Overcast,PIT,BUF,2020_14,6,6,West,0.1,0.11
+2020-12-13,2020,14,Carolina Panthers,27,32,Denver Broncos,Bank of America Stadium,False,64,5mi West - SouthWest,0.78,Partly Cloudy,DEN,CAR,2020_14,6,5,West - SouthWest,0.5,0.0
+2020-12-13,2020,14,Chicago Bears,36,7,Houston Texans,Soldier Field,False,30,3mi West - SouthWest,0.94,Mostly Cloudy,HST,CHI,2020_14,6,3,West - SouthWest,0.79,0.1
+2020-12-13,2020,14,Cincinnati Bengals,7,30,Dallas Cowboys,Paul Brown Stadium,False,44,1mi East - NorthEast,0.71,Overcast,DAL,CIN,2020_14,6,1,East - NorthEast,0.95,0.0
+2020-12-13,2020,14,Detroit Lions,24,31,Green Bay Packers,Ford Field,False,72,0.0,0.78,DOME,GB,DET,2020_14,6,0,No wind,0.96,0.0
+2020-12-13,2020,14,Jacksonville Jaguars,10,31,Tennessee Titans,TIAA Bank Field,False,66,1mi North,0.91,Mostly Cloudy,TEN,JAX,2020_14,6,1,North,0.84,0.0
+2020-12-13,2020,14,Las Vegas Raiders,27,44,Indianapolis Colts,Allegiant Stadium,False,46,4mi East - NorthEast,0.2,Mostly Cloudy,IND,LV,2020_14,6,4,East - NorthEast,0.76,0.0
+2020-12-13,2020,14,Los Angeles Chargers,20,17,Atlanta Falcons,SoFi Stadium,False,68,2mi NorthEast,0.22,Clear,ATL,LAC,2020_14,6,2,NorthEast,0.28,0.0
+2020-12-13,2020,14,Miami Dolphins,27,33,Kansas City Chiefs,Hard Rock Stadium,False,80,5mi SouthEast,0.66,Clear,KC,MIA,2020_14,6,5,SouthEast,0.24,0.0
+2020-12-13,2020,14,New York Giants,7,26,Arizona Cardinals,MetLife Stadium,False,59,10mi West,0.69,Partly Cloudy,ARZ,NYG,2020_14,6,10,West,0.49,0.0
+2020-12-13,2020,14,Philadelphia Eagles,24,21,New Orleans Saints,Lincoln Financial Field,False,56,9mi NorthWest,0.56,Clear,NO,PHI,2020_14,6,9,NorthWest,0.27,0.0
+2020-12-13,2020,14,San Francisco 49ers,15,23,Washington Football Team,Levi's Stadium,False,58,7mi NorthEast,0.11,Partly Cloudy,WAS,SF,2020_14,6,7,NorthEast,0.37,0.0
+2020-12-13,2020,14,Seattle Seahawks,40,3,New York Jets,CenturyLink Field,False,41,6mi South - SouthEast,0.9,Overcast,NYJ,SEA,2020_14,6,6,South - SouthEast,0.1,0.0
+2020-12-13,2020,14,Tampa Bay Buccaneers,26,14,Minnesota Vikings,Raymond James Stadium,False,75,4mi South - SouthEast,0.73,Partly Cloudy,MIN,TB,2020_14,6,4,South - SouthEast,0.55,0.0
+2020-12-14,2020,14,Cleveland Browns,42,47,Baltimore Ravens,FirstEnergy Stadium,False,34,12mi NorthWest,0.51,Mostly Cloudy,BLT,CLV,2020_14,0,12,NorthWest,0.81,0.0
+2020-12-17,2020,15,Las Vegas Raiders,27,30,Los Angeles Chargers,Allegiant Stadium,False,58,11mi SouthWest,0.32,Partly Cloudy,LAC,LV,2020_15,3,11,SouthWest,0.53,0.0
+2020-12-19,2020,15,Denver Broncos,19,48,Buffalo Bills,Sports Authority Field at Mile High,False,46,12mi West,0.26,Foggy,BUF,DEN,2020_15,5,12,West,0.69,0.0
+2020-12-19,2020,15,Green Bay Packers,24,16,Carolina Panthers,Lambeau Field,False,30,2mi West,0.87,Overcast,CAR,GB,2020_15,5,2,West,0.9,0.0
+2020-12-20,2020,15,Arizona Cardinals,33,26,Philadelphia Eagles,University of Phoenix Stadium,False,72,0.0,0.2,DOME,PHI,ARZ,2020_15,6,0,No wind,0.0,0.0
+2020-12-20,2020,15,Atlanta Falcons,27,31,Tampa Bay Buccaneers,Mercedes-Benz Stadium,False,72,0.0,0.72,DOME,TB,ATL,2020_15,6,0,No wind,0.77,0.0
+2020-12-20,2020,15,Baltimore Ravens,40,14,Jacksonville Jaguars,M&T Bank Stadium,False,41,7mi South - SouthWest,0.84,Overcast,JAX,BLT,2020_15,6,7,South - SouthWest,0.92,0.0
+2020-12-20,2020,15,Dallas Cowboys,41,33,San Francisco 49ers,AT&T Stadium,False,72,0.0,0.56,DOME,SF,DAL,2020_15,6,0,No wind,0.0,0.0
+2020-12-20,2020,15,Indianapolis Colts,27,20,Houston Texans,Lucas Oil Stadium,False,72,0.0,0.79,DOME,HST,IND,2020_15,6,0,No wind,0.84,0.0
+2020-12-20,2020,15,Los Angeles Rams,20,23,New York Jets,SoFi Stadium,False,75,2mi West - SouthWest,0.14,Clear,NYJ,LAR,2020_15,6,2,West - SouthWest,0.0,0.0
+2020-12-20,2020,15,Miami Dolphins,22,12,New England Patriots,Hard Rock Stadium,False,79,9mi South,0.69,Partly Cloudy,NE,MIA,2020_15,6,9,South,0.41,0.0
+2020-12-20,2020,15,Minnesota Vikings,27,33,Chicago Bears,U.S. Bank Stadium,False,72,0.0,0.75,DOME,CHI,MIN,2020_15,6,0,No wind,0.1,0.59
+2020-12-20,2020,15,New Orleans Saints,29,32,Kansas City Chiefs,Mercedes-Benz Superdome,False,72,0.0,0.69,DOME,KC,NO,2020_15,6,0,No wind,0.47,0.0
+2020-12-20,2020,15,New York Giants,6,20,Cleveland Browns,MetLife Stadium,False,34,1mi SouthEast,0.9,Overcast,CLV,NYG,2020_15,6,1,SouthEast,0.88,0.0
+2020-12-20,2020,15,Tennessee Titans,46,25,Detroit Lions,Nissan Stadium,False,45,4mi West - SouthWest,0.94,Overcast,DET,TEN,2020_15,6,4,West - SouthWest,0.1,0.0
+2020-12-20,2020,15,Washington Football Team,15,20,Seattle Seahawks,FedEx Field,False,40,9mi South - SouthWest,0.82,Overcast,SEA,WAS,2020_15,6,9,South - SouthWest,0.93,0.0
+2020-12-21,2020,15,Cincinnati Bengals,27,17,Pittsburgh Steelers,Paul Brown Stadium,False,43,9mi West - SouthWest,0.73,Partly Cloudy,PIT,CIN,2020_15,0,9,West - SouthWest,0.42,0.0
+2020-12-25,2020,16,New Orleans Saints,52,33,Minnesota Vikings,Mercedes-Benz Superdome,False,72,0.0,0.28,DOME,MIN,NO,2020_16,4,0,No wind,0.0,0.0
+2020-12-26,2020,16,Arizona Cardinals,12,20,San Francisco 49ers,University of Phoenix Stadium,False,72,0.0,0.12,DOME,SF,ARZ,2020_16,5,0,No wind,0.18,0.0
+2020-12-26,2020,16,Detroit Lions,7,47,Tampa Bay Buccaneers,Ford Field,False,72,0.0,0.91,DOME,TB,DET,2020_16,5,0,No wind,0.87,0.11
+2020-12-26,2020,16,Las Vegas Raiders,25,26,Miami Dolphins,Allegiant Stadium,False,52,2mi NorthEast,0.19,Partly Cloudy,MIA,LV,2020_16,5,2,NorthEast,0.33,0.0
+2020-12-27,2020,16,Baltimore Ravens,27,13,New York Giants,M&T Bank Stadium,False,34,3mi South - SouthEast,0.64,Clear,NYG,BLT,2020_16,6,3,South - SouthEast,0.7,0.0
+2020-12-27,2020,16,Dallas Cowboys,37,17,Philadelphia Eagles,AT&T Stadium,False,72,0.0,0.21,DOME,PHI,DAL,2020_16,6,0,No wind,0.1,0.0
+2020-12-27,2020,16,Green Bay Packers,40,14,Tennessee Titans,Lambeau Field,False,27,13mi North,0.89,Snow,TEN,GB,2020_16,6,13,North,0.1,0.1
+2020-12-27,2020,16,Houston Texans,31,37,Cincinnati Bengals,NRG Stadium,False,72,0.0,0.65,DOME,CIN,HST,2020_16,6,0,No wind,0.48,0.0
+2020-12-27,2020,16,Jacksonville Jaguars,17,41,Chicago Bears,TIAA Bank Field,False,54,7mi SouthEast,0.56,Clear,CHI,JAX,2020_16,6,7,SouthEast,0.1,0.0
+2020-12-27,2020,16,Kansas City Chiefs,17,14,Atlanta Falcons,Arrowhead Stadium,False,49,10mi West,0.46,Clear,ATL,KC,2020_16,6,10,West,0.9,0.0
+2020-12-27,2020,16,Los Angeles Chargers,19,16,Denver Broncos,SoFi Stadium,False,59,1mi East - NorthEast,0.71,Partly Cloudy,DEN,LAC,2020_16,6,1,East - NorthEast,0.46,0.0
+2020-12-27,2020,16,New York Jets,23,16,Cleveland Browns,MetLife Stadium,False,34,4mi SouthWest,0.56,Clear,CLV,NYJ,2020_16,6,4,SouthWest,0.14,0.0
+2020-12-27,2020,16,Pittsburgh Steelers,28,24,Indianapolis Colts,Heinz Field,False,59,6mi NorthEast,0.45,Partly Cloudy,IND,PIT,2020_16,6,6,NorthEast,0.39,0.0
+2020-12-27,2020,16,Seattle Seahawks,20,9,Los Angeles Rams,CenturyLink Field,False,46,3mi NorthEast,0.79,Overcast,LAR,SEA,2020_16,6,3,NorthEast,0.99,0.0
+2020-12-27,2020,16,Washington Football Team,13,20,Carolina Panthers,FedEx Field,False,36,3mi South - SouthEast,0.56,Clear,CAR,WAS,2020_16,6,3,South - SouthEast,0.11,0.0
+2020-12-28,2020,16,New England Patriots,9,38,Buffalo Bills,Gillette Stadium,False,41,5mi SouthWest,0.81,Clear,BUF,NE,2020_16,0,5,SouthWest,0.17,0.0
+2021-01-03,2020,17,Buffalo Bills,56,26,Miami Dolphins,New Era Field,False,33,5mi South - SouthWest,0.91,Overcast,MIA,BUF,2020_17,6,5,South - SouthWest,0.98,0.0
+2021-01-03,2020,17,Carolina Panthers,7,33,New Orleans Saints,Bank of America Stadium,False,55,5mi North - NorthWest,0.87,Mostly Cloudy,NO,CAR,2020_17,6,5,North - NorthWest,0.84,0.0
+2021-01-03,2020,17,Chicago Bears,16,35,Green Bay Packers,Soldier Field,False,32,6mi West - SouthWest,0.9,Overcast,GB,CHI,2020_17,6,6,West - SouthWest,0.98,0.0
+2021-01-03,2020,17,Cincinnati Bengals,3,38,Baltimore Ravens,Paul Brown Stadium,False,38,8mi West,0.83,Overcast,BLT,CIN,2020_17,6,8,West,0.99,0.0
+2021-01-03,2020,17,Cleveland Browns,24,22,Pittsburgh Steelers,FirstEnergy Stadium,False,38,5mi West,0.88,Overcast,PIT,CLV,2020_17,6,5,West,0.1,0.0
+2021-01-03,2020,17,Denver Broncos,31,32,Las Vegas Raiders,Sports Authority Field at Mile High,False,54,7mi SouthWest,0.2,Foggy,LV,DEN,2020_17,6,7,SouthWest,0.18,0.0
+2021-01-03,2020,17,Detroit Lions,35,37,Minnesota Vikings,Ford Field,False,72,0.0,0.1,DOME,MIN,DET,2020_17,6,0,No wind,0.1,0.0
+2021-01-03,2020,17,Houston Texans,38,41,Tennessee Titans,NRG Stadium,False,72,0.0,0.44,DOME,TEN,HST,2020_17,6,0,No wind,0.5,0.0
+2021-01-03,2020,17,Indianapolis Colts,28,14,Jacksonville Jaguars,Lucas Oil Stadium,False,72,0.0,0.85,DOME,JAX,IND,2020_17,6,0,No wind,0.1,0.0
+2021-01-03,2020,17,Kansas City Chiefs,21,38,Los Angeles Chargers,Arrowhead Stadium,False,36,4mi South,0.9,Mostly Cloudy,LAC,KC,2020_17,6,4,South,0.64,0.0
+2021-01-03,2020,17,Los Angeles Rams,18,7,Arizona Cardinals,SoFi Stadium,False,59,3mi South - SouthEast,0.67,Partly Cloudy,ARZ,LAR,2020_17,6,3,South - SouthEast,0.56,0.0
+2021-01-03,2020,17,New England Patriots,28,14,New York Jets,Gillette Stadium,False,33,5mi NorthEast,0.87,Overcast,NYJ,NE,2020_17,6,5,NorthEast,0.1,0.0
+2021-01-03,2020,17,New York Giants,23,19,Dallas Cowboys,MetLife Stadium,False,34,8mi NorthEast,0.94,Overcast,DAL,NYG,2020_17,6,8,NorthEast,0.99,0.0
+2021-01-03,2020,17,Philadelphia Eagles,14,20,Washington Football Team,Lincoln Financial Field,False,37,6mi North - NorthEast,0.94,Overcast,WAS,PHI,2020_17,6,6,North - NorthEast,0.99,0.0
+2021-01-03,2020,17,San Francisco 49ers,23,26,Seattle Seahawks,Levi's Stadium,False,55,2mi North - NorthWest,0.77,Mostly Cloudy,SEA,SF,2020_17,6,2,North - NorthWest,0.84,0.0
+2021-01-03,2020,17,Tampa Bay Buccaneers,44,27,Atlanta Falcons,Raymond James Stadium,False,64,5mi North - NorthWest,0.82,Overcast,ATL,TB,2020_17,6,5,North - NorthWest,0.99,0.0

@@ -18,18 +18,17 @@ import pandas as pd
 # the 11th position shows the cloud couver,
 # and the 12th position shows the precipitation.
 
-
 def weatherListSorter(soup):
     """
     This function takes html soup and pulls relevant data into pre-defined lists
     Input: html soup
     """
-        detail.append(soup.find_all('p')[3].text.strip())
-        temp.append(soup.find_all('p')[4].text.strip())
-        wind.append(soup.find_all('p')[6].text.strip())
-        humidity.append(soup.find_all('p')[7].text.strip())
-        cloud_cover.append(soup.find_all('p')[11].text.strip())
-        precipitation.append(soup.find_all('p')[12].text.strip())
+    detail.append(soup.find_all('p')[3].text.strip())
+    temp.append(soup.find_all('p')[4].text.strip())
+    wind.append(soup.find_all('p')[6].text.strip())
+    humidity.append(soup.find_all('p')[7].text.strip())
+    cloud_cover.append(soup.find_all('p')[11].text.strip())
+    precipitation.append(soup.find_all('p')[12].text.strip())
 
 if __name__ == 'main':
 
@@ -56,40 +55,40 @@ if __name__ == 'main':
     
     for n in df['weather_url']:
     
-    try:
-    
-        source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + n).read()
-        soup = BeautifulSoup(source, 'html.parser')
-        
-    except Exception:
-        
         try:
-            
-            source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','redskins'))).read()
-            soup = BeautifulSoup(source, 'html.parser')
-
-            weatherListSorter(soup)
         
+            source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + n).read()
+            soup = BeautifulSoup(source, 'html.parser')
+            
         except Exception:
             
             try:
-            
-                source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','football%20team'))).read()
+                
+                source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','redskins'))).read()
                 soup = BeautifulSoup(source, 'html.parser')
 
                 weatherListSorter(soup)
-                
-            except Exception:
             
+            except Exception:
+                
                 try:
-
-                    source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','washington'))).read()
+                
+                    source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','football%20team'))).read()
                     soup = BeautifulSoup(source, 'html.parser')
 
                     weatherListSorter(soup)
-                
+                    
                 except Exception:
-                    print(f'Error with url http://www.nflweather.com/en/game/{n}')
+                
+                    try:
+
+                        source = urllib.request.urlopen('http://www.nflweather.com/en/game/' + (n.replace('team','washington'))).read()
+                        soup = BeautifulSoup(source, 'html.parser')
+
+                        weatherListSorter(soup)
+                    
+                    except Exception:
+                        print(f'Error with url http://www.nflweather.com/en/game/{n}')
 
     df1 = pd.DataFrame()
 
