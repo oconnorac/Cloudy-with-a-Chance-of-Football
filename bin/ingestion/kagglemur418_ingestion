@@ -1,0 +1,11 @@
+PS C:\Users\griff> pip install kaggle
+    
+PS C:\Users\griff> cd downloads
+    
+PS C:\Users\griff\downloads> move kaggle.json C:/Users/griff/.kaggle
+        
+PS C:\Users\griff> kaggle datasets list -s [mur418]
+    
+PS C:\Users\griff> kaggle datasets download -d mur418/espn-2019-stats-and-2020-nfl-fantasy-projections
+    
+Downloading espn-2019-stats-and-2020-nfl-fantasy-projections.zip to C:\Users\griff
