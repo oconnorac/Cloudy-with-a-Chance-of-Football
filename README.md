@@ -2,7 +2,7 @@
 
 Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Data Science at the Georgetown University School of Continuing Studies (SCS) (Cohort 23, Spring - Summer 2021).
 
-![Image](fixtures/images/fantasy_football_image.png)
+![Image](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/blob/main/fixtures/images/fantasy_football_image.png)
 
 *Photo courtesy of [Medium](https://bockles.medium.com/how-to-enjoy-fantasy-football-without-being-the-absolute-worst-bcab8b401e17) user Brian Bockleman*
 
