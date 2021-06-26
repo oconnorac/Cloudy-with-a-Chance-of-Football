@@ -22,7 +22,7 @@ We want to know what influences a player's *actual* fantasy score so that we can
 | [bin](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/bin)      | Python data ingestion and database setup scripts |
 | [deliverables](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/deliverables)   | Georgetown SCS-required documents for project reporting |
 | [fixtures](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/fixtures)   | Raw and cleaned data, images, and database |
-| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | :sparkles: Future home of machine learning models |
+| [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | Final machine learning models (global, offense, defense, and wide receiver) |
 | [notebooks](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
 | [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Automated testing scripts |
 
@@ -38,9 +38,6 @@ We want to know what influences a player's *actual* fantasy score so that we can
 **Finally** ensure you have the proper package versions downloaded by entering the following line into terminal or powershell:
 
 ```pip install requirements.txt```
-
-## Usage
-:sparkles: Add info on how to use this with screenshots or GIFs
 
 ## Contributing
 At this time, we do not have guidance on how to contribute to this project.
