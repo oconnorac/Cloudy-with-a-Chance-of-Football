@@ -24,7 +24,7 @@ We want to know what influences a player's *actual* fantasy score so that we can
 | [fixtures](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/fixtures)   | Raw and cleaned data, images, and database |
 | [foo](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/foo)   | Final machine learning models (global, offense, defense, and wide receiver) |
 | [notebooks](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Cleaning, Exploratory Data Analysis, Machine Learning Jupyter Notebooks |
-| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | Automated testing scripts |
+| [tests](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/wiki/notebooks)   | :sparkles: Future home of automated testing scripts |
 
 ## Installation
 **First**, clone this repository by entering the following into terminal (Mac) or powershell (Windows):
