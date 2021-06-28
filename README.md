@@ -14,7 +14,9 @@ Griffin, Ermina, Yaphet, and Aidan's capstone project for the Certificate of Dat
 
 Fantasy football allows fans to act as team managers by drafting, trading for, acquiring, and playing real football players on fantasy football platforms, scoring points using a scoring system based on real life performance of their players. Fantasy football platforms (such as [ESPN](https://www.espn.com/fantasy/football/) or [Yahoo!](https://football.fantasysports.yahoo.com/)) apply their own analytics to project player performance weekly during the NFL season in preparation for the upcoming week. It is not uncommon for players to score well above or far below their platform-projected fantasy score, leaving fantasy managers wondering which players to draft, trade for, acquire, and play.
 
-We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.
+We want to know what influences a player's *actual* fantasy score so that we can make data-driven decisions when building a team or weekly starting lineup during the NFL season. To do so, we're using 2019 and 2020 NFL season data and ESPN fantasy football projection data for this project.   
+
+For a full explanation of our project from beginning to end, see our final [presentation](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/blob/main/deliverables/Capstone%20Final%20Presentation_CloudyWithAChanceofFootball.pdf) and read our final [paper](https://github.com/georgetown-analytics/Cloudy-with-a-Chance-of-Football/blob/main/deliverables/Capstone%20Final%20Paper_CloudyWithAChanceofFootball.pdf)
 
 ## Table of Contents
 | **Directory**     | **Contents** |
